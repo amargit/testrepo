@@ -10,7 +10,7 @@
     "externalID" : "SRHAA5V0HC3F9AN3QUSMADRLAWDRBW###AG001143D417CBv8qvRQ#GBbEQjRkJ",
     "guid" : "OI-8a6c110c30984497b4acedf3a002f7fc",
     "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9AN3QUSMADRLAWDRBW",
-    "name" : "Automation_Windows_NoChange_MOD",
+    "name" : "Automation_Windows_NoChange_NEW",
     "offeringPricesObject" : [ ],
     "parametersObject" : [ ],
     "serverGroupSpecObject" : [ {
