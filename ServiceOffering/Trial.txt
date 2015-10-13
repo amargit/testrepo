@@ -1,0 +1,3647 @@
+[{
+  "cloudClass" : "com.bmc.cloud.model.beans.SearchResults",
+  "guid" : "bab5a2c1-89ef-4a42-9be1-b9d37243a367",
+  "pageNo" : 0,
+  "pageSize" : 25,
+  "results" : [ {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "9dbf5b6a-c6dd-4b7e-bb9e-e5e4a062b7bd",
+    "definitionId" : "OI-8732bea76bcc41cfaaeb31f7ba7e2962",
+    "externalID" : "SRHAA5V0HC3F9AN3QUSMADRLAWDRBW###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-8a6c110c30984497b4acedf3a002f7fc",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9AN3QUSMADRLAWDRBW",
+    "name" : "Automation_Windows_NoChange_MOD",
+    "offeringPricesObject" : [ ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 2,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "5ba36f9a-990e-48c8-9830-c73604bc06f8",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 2048,
+      "name" : "Single Resource",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "56f7068c-3b07-4ee8-823f-ccf423574a6d",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "2c63e4cb-cb2d-4042-af1d-c446fdb66edf",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "5dd08df4-5316-4bca-bdaf-da6393279405",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "a1907265-1d39-48c8-b7d5-612270d2686f",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "5e125189-a802-4c63-af60-1adb5c946b6f",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "ca332381-3d19-4f74-8cd6-b695637f2cd6",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "d318b845-b5bc-45e2-979e-5def6573e2ed",
+        "imageURL" : "/csm/images/Software/Windows%20OS",
+        "name" : "Windows OS",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "deda2d56-e502-4400-a3c0-ebab72cd54f6",
+    "definitionId" : "OI-1574376107764dcf8c35f74183f6dae2",
+    "externalID" : "SRHAA5V0HCW8ZAN3T0F3BFSXYLB7OP###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-a4519ee09136474288674e88d1bb3fc4",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN3T0F3BFSXYLB7OP",
+    "name" : "Multy Tier Service for Windows",
+    "offeringPricesObject" : [ ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "36f084c3-406c-4a49-be01-047714a707cb",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "9ff97060-acbf-4fc5-93c7-6faa927053f4",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "c34c8608-eadb-4dc0-95a6-b91f0776abe3",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "27e034a3-1277-42bc-8143-ade3af01eee1",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "beb62f87-4b62-46fc-92d5-690eb443f0c6",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "6a63a428-762c-4d95-8fca-736858b4a5a4",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "39bdfd4d-19f5-43f2-b9ac-723c2f924243",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "73839ff2-6538-42c5-bdc7-626626277440",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "2d1fbc33-c019-461a-8426-7d62d2145bc5",
+        "imageURL" : "/csm/images/Software/App%201",
+        "name" : "App 1",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "ad28f428-350c-4a5e-9ca4-18f44258b1b7",
+        "label" : "Server Group 1",
+        "name" : "Server Group 1",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "0bc68b0a-8971-4de0-95b3-6cf3461f2877",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "3c18120b-d463-480c-9345-13469c7aac6a",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "d95caedb-80c8-4b6b-8538-7c815e837d25",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG2",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "0db4ea13-28f3-41d7-a1cb-b982b769329c",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "28607219-6ced-4ffd-948f-af8af986b7bc",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "2aad3bcf-7f8c-41f9-bd9c-f2ce8de70e71",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "20541d6b-95bc-4281-92c5-8c816207fc24",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "fa4e79a4-24df-445c-ba96-5c82356c4474",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "b893c2f0-e550-4a54-a060-07fa8c614247",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "a7623dc3-a5b6-4a69-9fe9-1ba4618901ab",
+        "imageURL" : "/csm/images/Software/App%202",
+        "name" : "App 2",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "bcf5690a-21c9-49e5-a8d0-aec911e4e268",
+        "label" : "Server Group 2",
+        "name" : "Server Group 2",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "abedceca-5fe7-4860-84c8-22d4f0c9aede",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "851749fc-86e9-49a3-b23d-ee17ed233f8b",
+    "definitionId" : "OI-4c3c0317151249ed9cc350dcfc0d937f",
+    "externalID" : "SRHAA5V0HCW8ZAN3T3HWBIGI7QC7VC###AG001143D417CBOKq7RQ_k8KBAr6cB",
+    "guid" : "OI-ad6ee968222e45ca92abf46432f37938",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN3T3HWBIGI7QC7VC",
+    "name" : "00-oct21-MKNew Service-T1 Offering with Param",
+    "offeringPricesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.beans.Price",
+      "amount" : "2000.00 USD",
+      "guid" : "OI-a95ad290f3bd4c9cab5dff576a54e249",
+      "isOnboarded" : true,
+      "name" : "base price",
+      "period" : "MNTH",
+      "reconciliationID" : "62C1FCD5-A052-F99A-4F39-349FEAA704C0",
+      "serviceOffering" : "/serviceoffering/OI-ad6ee968222e45ca92abf46432f37938",
+      "status" : "Draft",
+      "tokenID" : "0",
+      "uom" : "INST"
+    } ],
+    "parametersObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "boolean",
+      "description" : "IS_HIGHLIGHTED description",
+      "guid" : "ac225fe8-ce1e-410e-aea2-0a7c48aa8702",
+      "isRequired" : true,
+      "isUserInput" : true,
+      "label" : "IS_HIGHLIGHTED Label",
+      "name" : "IS_HIGHLIGHTED",
+      "value" : "false"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "string",
+      "description" : "installdir",
+      "guid" : "2e6071b1-ae45-40ca-a191-0b149fa44085",
+      "isRequired" : true,
+      "isUserInput" : true,
+      "label" : "installdir",
+      "name" : "installdir",
+      "value" : "C:\\PDP-APPParam"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "string",
+      "guid" : "90e528a0-85c0-47ef-b783-ff5480cf702b",
+      "isRequired" : true,
+      "isUserInput" : true,
+      "label" : "SERVERNAME",
+      "name" : "Servername",
+      "value" : "localhost"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "token",
+      "description" : "tokenparam",
+      "guid" : "7f16d9e9-b20a-45bb-b57c-8ee84745c5d7",
+      "isRequired" : false,
+      "isUserInput" : false,
+      "label" : "tokenparam",
+      "name" : "tokenparam",
+      "value" : "/ResourceSet[name=SG1_MKO21]/ComputeContainer[0]/Server/hostName"
+    } ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ 512 ],
+      "guid" : "395d95d8-aafa-4abe-a238-33f23b4d23b3",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "e4d4f649-5177-4c02-97f7-327f8ffb4f67",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1_MKO21",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "af9907bd-3912-4c1a-820e-a695fef679c5",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "644ba525-292b-4d71-807d-7b68119693cf",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "a89e108f-e023-414b-a781-4c93eb498d4e",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "e87c1130-72d4-42f0-bf04-b37387e565b0",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "739e6749-244c-47a8-b67d-2cef3e60a0a4",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "05939e0d-7d92-489d-bf27-9b81a6fdf81b",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "69fd762d-c8fb-4bb9-a315-27d5a5440ced",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 2,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "a742b904-0ccd-4ee8-8759-a2cf74caeeea",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "0493313e-49c0-4e11-94b8-a5eab6fffe58",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+        "dataType" : "string",
+        "description" : "SERVERADMIN dESCRIPTION",
+        "guid" : "fa05ee4a-2e63-44cb-9a67-93bf06a24276",
+        "isRequired" : true,
+        "isUserInput" : true,
+        "label" : "SERVERADMINLabel",
+        "name" : "SERVERADMIN",
+        "value" : "PDPAdmin"
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+        "dataType" : "boolean",
+        "description" : "Is_Highlighted",
+        "guid" : "eb24da40-baa2-4f97-b792-9b80dded462a",
+        "isRequired" : false,
+        "isUserInput" : true,
+        "label" : "Is_Highlighted",
+        "name" : "Is_Highlighted",
+        "value" : "true"
+      } ],
+      "serverCount" : 2,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "description" : "App 1_MK_Oct21 description",
+        "guid" : "6f0f5d61-f735-46fa-9f91-2b48f985ae43",
+        "imageURL" : "/csm/images/Software/App%201_MK_Oct21",
+        "name" : "App 1_MK_Oct21",
+        "parametersObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "string",
+          "description" : "SERVERNAME",
+          "guid" : "7cc5002d-1506-4f89-b0c0-71af14d346cf",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "Servernamestring",
+          "name" : "SERVERNAMEstring",
+          "value" : "localhost"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "boolean",
+          "guid" : "5a064b34-4f8b-4a9e-8231-ec5b3228eaa8",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "boolentype",
+          "name" : "boolen",
+          "value" : "true"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "numeric",
+          "description" : "SERVERPORT",
+          "guid" : "6e9e2045-b1f6-4433-9c0d-bf3b831d7462",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "SERVERPORT",
+          "name" : "SERVERPORT",
+          "value" : "8080"
+        } ],
+        "tags" : [ ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "description" : "App 2_MK_Oct21_noSoftDefault",
+        "guid" : "1f0ef6dd-141a-481d-a43c-40e69ff4e101",
+        "imageURL" : "/csm/images/Software/App%202_MKO21_noSoftDefault",
+        "name" : "App 2_MKO21_noSoftDefault",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "deda2d56-e502-4400-a3c0-ebab72cd54f6",
+    "definitionId" : "OI-74d339c9f21548eb96f4a2ad3d0a3f51",
+    "externalID" : "SRHAA5V0HCW8ZAN3VFBGCL4UC93JUO###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-451adf1241064a3cbe0d30f87eb89c9e",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN3VFBGCL4UC93JUO",
+    "name" : "New MLT with Options",
+    "offeringPricesObject" : [ ],
+    "optionCategoriesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "80026944-3690-4558-ba08-e09d88952b4f",
+      "name" : "GENERIC Options",
+      "offeringId" : "OI-451adf1241064a3cbe0d30f87eb89c9e",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-b80448a0c95a4b65a12f347a7b399ca2",
+        "imageURL" : "/csm/images/Option/OI-b80448a0c95a4b65a12f347a7b399ca2",
+        "isMultiSelect" : true,
+        "name" : "Gen1.CPU.RAM.Server",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "2 CPU, 2 GB RAM, 2 Servers",
+          "guid" : "OI-c1718d1c41624a539e37ea41fd9e3c53",
+          "isPreselected" : false,
+          "name" : "Smal Deployment",
+          "optionChoiceId" : "AB8F2D0A-6508-D9E2-2EE1-34FC2497944C",
+          "optionId" : "OI-b80448a0c95a4b65a12f347a7b399ca2",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "100.00 USD",
+            "guid" : "OI-6505c9adb63f4e0d8f5e736eea6a2263",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-c1718d1c41624a539e37ea41fd9e3c53",
+            "period" : "MNTH",
+            "reconciliationID" : "D5C4F882-D358-FD97-FCC8-34FC9D980CBC",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "b4e3ab46-e466-4e07-b2b9-6b3b27899d57",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c1718d1c41624a539e37ea41fd9e3c53"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "f4089065-bedb-4a82-a166-9680d18fc474",
+            "name" : "SG1",
+            "numberOfInstances" : 2,
+            "uiOptionChoice" : "/OptionChoiceView/OI-c1718d1c41624a539e37ea41fd9e3c53"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "5f084253-c9c3-412a-adbd-7050e9623484",
+            "memory" : 2048,
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c1718d1c41624a539e37ea41fd9e3c53"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "4 CPU, 4 GB RAM, 3 Servers",
+          "guid" : "OI-a1078b52d0e1443e8c206ab77bff038f",
+          "isPreselected" : false,
+          "name" : "Medium Deployment",
+          "optionChoiceId" : "9092B7E9-3E56-6F17-CD8A-34FCCE1CBC2F",
+          "optionId" : "OI-b80448a0c95a4b65a12f347a7b399ca2",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "150.00 USD",
+            "guid" : "OI-bc1f498eedcc42e587f69799bc466c99",
+            "isOnboarded" : true,
+            "name" : "P2",
+            "optionChoice" : "/optionchoice/OI-a1078b52d0e1443e8c206ab77bff038f",
+            "period" : "MNTH",
+            "reconciliationID" : "A4DE2B6D-86F9-2A2B-296C-34FD486BBEAF",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "a2da4103-e098-4fc7-9da8-126b002c210e",
+            "name" : "SG2",
+            "uiOptionChoice" : "/OptionChoiceView/OI-a1078b52d0e1443e8c206ab77bff038f"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "99c5a631-1211-4e14-b8ad-ab139a0600b7",
+            "memory" : 4096,
+            "name" : "SG2",
+            "uiOptionChoice" : "/OptionChoiceView/OI-a1078b52d0e1443e8c206ab77bff038f"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "024943c7-d435-45a4-89fd-a5a6ba2f07f5",
+            "name" : "SG2",
+            "numberOfInstances" : 3,
+            "uiOptionChoice" : "/OptionChoiceView/OI-a1078b52d0e1443e8c206ab77bff038f"
+          } ]
+        } ],
+        "type" : "Other"
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "a8b8fd3e-fa2e-4a82-874c-5c3462b84082",
+      "name" : "Default Category",
+      "offeringId" : "OI-451adf1241064a3cbe0d30f87eb89c9e",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-f2d5faa38b7946fe88fc4318e025e318",
+        "imageURL" : "/csm/images/Option/OI-f2d5faa38b7946fe88fc4318e025e318",
+        "isMultiSelect" : false,
+        "name" : "DRO. CPU SG1",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Add 2 CPU",
+          "guid" : "OI-f9b61924304c4481a0da0501527a7257",
+          "isPreselected" : false,
+          "name" : "Add 2 CPU",
+          "optionChoiceId" : "55FE071F-9C0D-9E48-B04E-34F078845E25",
+          "optionId" : "OI-f2d5faa38b7946fe88fc4318e025e318",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "10.00 USD",
+            "guid" : "OI-bad95c83a9f54d2d9f3eb3fc6350e325",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-f9b61924304c4481a0da0501527a7257",
+            "period" : "MNTH",
+            "reconciliationID" : "A2212FA3-1343-52AB-51E3-34F0CDD9E840",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "cpus",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "62f8bd12-62c8-48d3-82b2-fa0e8924617f",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-f9b61924304c4481a0da0501527a7257"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Add 4 CPU",
+          "guid" : "OI-ec142f2d01184aa381b31eb5b82a1b5c",
+          "isPreselected" : false,
+          "name" : "Add 4 CPU",
+          "optionChoiceId" : "E85FC479-D2FD-5CC3-6C71-34F12A97D195",
+          "optionId" : "OI-f2d5faa38b7946fe88fc4318e025e318",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "20.00 USD",
+            "guid" : "OI-578d81098c6f43d2bec0cd73c4a939c8",
+            "isOnboarded" : true,
+            "name" : "P2",
+            "optionChoice" : "/optionchoice/OI-ec142f2d01184aa381b31eb5b82a1b5c",
+            "period" : "MNTH",
+            "reconciliationID" : "E0E693D5-0FDD-6AC0-11F1-34F159C546B1",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "cpus",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "9caba9ac-2517-4486-8e05-a56f343871b2",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-ec142f2d01184aa381b31eb5b82a1b5c"
+          } ]
+        } ],
+        "type" : "cpus"
+      } ]
+    } ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "@circular-reference-placeholder@",
+        "guid" : "OI-f9b61924304c4481a0da0501527a7257"
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "@circular-reference-placeholder@",
+        "guid" : "OI-ec142f2d01184aa381b31eb5b82a1b5c"
+      } ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "36f084c3-406c-4a49-be01-047714a707cb",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "b34f8057-f440-496c-a002-89bd8a8430a3",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "226b8c15-cef2-42fe-be19-6785749ff44d",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "3cbe33cd-1271-4693-a67f-c6ce361a1d97",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "e86ce023-fd6f-48e6-a212-9f820542dffe",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "cf51f050-b5c6-40af-af43-63d798a70899",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "c4746681-adcb-4335-8c09-971ff12cbe47",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "d2e2a55e-82fd-461c-be78-924d0b655a2b",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "optionCategoriesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+        "guid" : "5328e6ad-e39a-4a89-9f10-f6d4e9b50e42",
+        "name" : "Generic for Server Group SG 1",
+        "offeringId" : "OI-451adf1241064a3cbe0d30f87eb89c9e",
+        "optionsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+          "guid" : "OI-0fb1984ca14442649a5c1c6cfb0c40d1",
+          "imageURL" : "/csm/images/Option/OI-0fb1984ca14442649a5c1c6cfb0c40d1",
+          "isMultiSelect" : true,
+          "name" : "DRO.Gen SG1",
+          "optionChoicesObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+            "description" : "4 CPU, $ GB RAM, 3 Servers",
+            "guid" : "OI-8a45d15264624118a1dcf5c0a7179e8c",
+            "isPreselected" : false,
+            "name" : "Medium Deployment",
+            "optionChoiceId" : "72CD54C7-BB76-5863-B28B-3A289C650DCB",
+            "optionId" : "OI-0fb1984ca14442649a5c1c6cfb0c40d1",
+            "priceObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Price",
+              "amount" : "124.00 USD",
+              "guid" : "OI-25e7096f79a4428bad8f88b851aee12c",
+              "isOnboarded" : true,
+              "name" : "P5",
+              "optionChoice" : "/optionchoice/OI-8a45d15264624118a1dcf5c0a7179e8c",
+              "period" : "MNTH",
+              "reconciliationID" : "F695BEC9-D1D4-6F0C-BE24-3A28FF7D601E",
+              "status" : "Draft",
+              "tokenID" : "0",
+              "uom" : "INST"
+            } ],
+            "type" : "Other",
+            "uiOptionChoiceEffectsObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+              "change" : "replace",
+              "cpuCount" : 4,
+              "guid" : "a672e8c8-8150-4045-bc9c-5c02465fc8e8",
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "8f08fa2f-3da8-4a7a-ac74-53908ba8b0d3",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "2e55e06e-4db3-4516-97e7-c3980ee29666",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "2e55e06e-4db3-4516-97e7-c3980ee29666",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-8a45d15264624118a1dcf5c0a7179e8c"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+              "change" : "replace",
+              "guid" : "d96373c9-7f5d-4794-bcc4-c173fdf46cf2",
+              "memory" : 4096,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "039fc43f-a5ee-43d1-a405-b3aad336440d",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "ac2e8fa7-be3a-4154-9638-4bbba33b5730",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "ac2e8fa7-be3a-4154-9638-4bbba33b5730",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-8a45d15264624118a1dcf5c0a7179e8c"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+              "change" : "modify",
+              "guid" : "90b417d4-8b16-4a97-8004-574f2ac0059c",
+              "numberOfInstances" : 3,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "7d5dc6b9-f8fe-4a41-a639-3e0edbf74726",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "e8ea121e-5006-45cd-a9e0-d5f515159f1d",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "e8ea121e-5006-45cd-a9e0-d5f515159f1d",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-8a45d15264624118a1dcf5c0a7179e8c"
+            } ]
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+            "description" : "2 CPU, 2 GB RAM, 2 Servers",
+            "guid" : "OI-9c385078ccc2475eabd2a4e50bef502a",
+            "isPreselected" : false,
+            "name" : "Small Deployment",
+            "optionChoiceId" : "7336CD60-59D8-7D22-97A6-3A270A339022",
+            "optionId" : "OI-0fb1984ca14442649a5c1c6cfb0c40d1",
+            "priceObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Price",
+              "amount" : "35.00 USD",
+              "guid" : "OI-edb4b2ff953347f88a373d16bf80be76",
+              "isOnboarded" : true,
+              "name" : "P2",
+              "optionChoice" : "/optionchoice/OI-9c385078ccc2475eabd2a4e50bef502a",
+              "period" : "MNTH",
+              "reconciliationID" : "A9B4FB45-DDEC-7885-0A17-3A2781C31160",
+              "status" : "Draft",
+              "tokenID" : "0",
+              "uom" : "INST"
+            } ],
+            "type" : "Other",
+            "uiOptionChoiceEffectsObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+              "change" : "replace",
+              "cpuCount" : 2,
+              "guid" : "d1bade19-cee6-4e02-b0ed-2ffe679e1996",
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "a72e0e21-07ec-4fbb-9d65-9b3d464ce0e0",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "78137048-bcdd-40ed-97d0-34c1fc94887f",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "78137048-bcdd-40ed-97d0-34c1fc94887f",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-9c385078ccc2475eabd2a4e50bef502a"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+              "change" : "replace",
+              "guid" : "a48aa067-0ce7-407b-a88f-4ad320ef93ed",
+              "memory" : 2048,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "f002ae2d-9382-4d6a-b72a-dff3fa7a11ed",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "166e75ac-2bbe-405a-9fee-19db9f7c04b4",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "166e75ac-2bbe-405a-9fee-19db9f7c04b4",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-9c385078ccc2475eabd2a4e50bef502a"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+              "change" : "modify",
+              "guid" : "f99a0038-4890-4454-afeb-b80993623083",
+              "numberOfInstances" : 2,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "e100ca66-004a-4870-ad13-96980259c8fe",
+                "name" : "Server Group 1",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "1e552c9f-be3a-414c-9cc7-ddcf3f80a531",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "1e552c9f-be3a-414c-9cc7-ddcf3f80a531",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-9c385078ccc2475eabd2a4e50bef502a"
+            } ]
+          } ],
+          "type" : "Other"
+        } ]
+      } ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "6ac12790-ae61-491a-a403-8f61ca78daba",
+        "imageURL" : "/csm/images/Software/App%201",
+        "name" : "App 1",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "96a185f3-8559-48ae-878c-35ff0e69ebbc",
+        "label" : "Server Group 1",
+        "name" : "Server Group 1",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "6f139512-573b-4704-b58d-85273bf138c8",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Add 2 CPU",
+        "guid" : "OI-4cf9bb320e91420383156be65cfcd725",
+        "isPreselected" : false,
+        "name" : "Add 2 CPU",
+        "optionChoiceId" : "1682B917-55F5-76E0-BE2B-34F2CCA5B79E",
+        "optionId" : "OI-0a3e2f96fb7d4fc7a3b373241c77a674",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "30.00 USD",
+          "guid" : "OI-2d0eef2ac3f24ff28bdb18bb8407edcf",
+          "isOnboarded" : true,
+          "name" : "P3",
+          "optionChoice" : "/optionchoice/OI-4cf9bb320e91420383156be65cfcd725",
+          "period" : "MNTH",
+          "reconciliationID" : "C21EB9B0-D0B3-5411-4678-34F2F2A52A5D",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "cpus",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+          "change" : "replace",
+          "cpuCount" : 2,
+          "guid" : "038f2132-2723-49b4-9e08-ea2b43468d4d",
+          "name" : "SG2",
+          "uiOptionChoice" : "/OptionChoiceView/OI-4cf9bb320e91420383156be65cfcd725"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Add 4 CPU",
+        "guid" : "OI-27bcf3658b244fa98c1f4a1521140270",
+        "isPreselected" : false,
+        "name" : "Add 4 CPU",
+        "optionChoiceId" : "7F3A776C-EA8E-4682-429A-34F3265A8A16",
+        "optionId" : "OI-0a3e2f96fb7d4fc7a3b373241c77a674",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "40.00 USD",
+          "guid" : "OI-00a6af8e208d49e7a273c8adabc9ac55",
+          "isOnboarded" : true,
+          "name" : "P4",
+          "optionChoice" : "/optionchoice/OI-27bcf3658b244fa98c1f4a1521140270",
+          "period" : "MNTH",
+          "reconciliationID" : "B52A530C-C28C-D0E6-B4BC-34F35C6CA951",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "cpus",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+          "change" : "replace",
+          "cpuCount" : 4,
+          "guid" : "74178324-2866-4346-aff0-bc520aff18ed",
+          "name" : "SG2",
+          "uiOptionChoice" : "/OptionChoiceView/OI-27bcf3658b244fa98c1f4a1521140270"
+        } ]
+      } ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "3c18120b-d463-480c-9345-13469c7aac6a",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "cf8c24e6-8fd2-47f0-a24e-c86fb3c8ec8e",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG2",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "e3131655-0f08-4c6b-9a1a-07741ff832de",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "2831f383-8fb9-4735-8afd-00edaa81d61b",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "47fcce13-9108-456d-9483-3ec76e4f4eaa",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "f4f07711-4224-4e5f-91df-46305af73a97",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "b87c8a39-fed2-423e-b3df-e91287253b77",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "87c42449-e567-4392-83e9-e0fd61b6bc90",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "optionCategoriesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+        "guid" : "79596f03-8721-458a-8ffb-09ea6278d5be",
+        "name" : "Generic for Server Group SG2",
+        "offeringId" : "OI-451adf1241064a3cbe0d30f87eb89c9e",
+        "optionsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+          "guid" : "OI-e9c7cc2eab994f958a2079a754d7ac0d",
+          "imageURL" : "/csm/images/Option/OI-e9c7cc2eab994f958a2079a754d7ac0d",
+          "isMultiSelect" : true,
+          "name" : "DRO.Gen SG2",
+          "optionChoicesObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+            "description" : "4 CPU, 4 GB RAM, 4 Servers",
+            "guid" : "OI-42ac54a33ceb4329b4c5ab57a1767381",
+            "isPreselected" : false,
+            "name" : "Deployment 2",
+            "optionChoiceId" : "EEF5C976-F319-F124-B3E4-3A2C30B2EE5D",
+            "optionId" : "OI-e9c7cc2eab994f958a2079a754d7ac0d",
+            "priceObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Price",
+              "amount" : "55.00 USD",
+              "guid" : "OI-cace56b7aad54968821a5401d55a77c0",
+              "isOnboarded" : true,
+              "name" : "K3",
+              "optionChoice" : "/optionchoice/OI-42ac54a33ceb4329b4c5ab57a1767381",
+              "period" : "MNTH",
+              "reconciliationID" : "A5CEC511-A8D7-7A17-CE38-3A2C94B6EE94",
+              "status" : "Draft",
+              "tokenID" : "0",
+              "uom" : "INST"
+            } ],
+            "type" : "Other",
+            "uiOptionChoiceEffectsObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+              "change" : "replace",
+              "cpuCount" : 4,
+              "guid" : "f664209d-8d78-4383-b4be-6b5b486600a4",
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "adc5eb5e-78b4-415f-b91e-4a9b4bb1095d",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "cbd06d0b-8eee-495d-9fb8-6814c7b76ece",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "cbd06d0b-8eee-495d-9fb8-6814c7b76ece",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-42ac54a33ceb4329b4c5ab57a1767381"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+              "change" : "replace",
+              "guid" : "c2346955-bda4-41a2-b837-7a5b88480edf",
+              "memory" : 4096,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "f9c49ed3-3802-44af-9a4f-ff6f0a97801d",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "9715a276-53a7-4c68-bf4b-ca011aaa7a6f",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "9715a276-53a7-4c68-bf4b-ca011aaa7a6f",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-42ac54a33ceb4329b4c5ab57a1767381"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+              "change" : "modify",
+              "guid" : "6ec1dced-aa5a-4efd-82b7-94f24d09adc4",
+              "numberOfInstances" : 4,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "287ecf3b-7598-40af-8df0-6d61fd4d31a7",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "058071a0-dcf2-49bc-a9e7-b8143b43494d",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "058071a0-dcf2-49bc-a9e7-b8143b43494d",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-42ac54a33ceb4329b4c5ab57a1767381"
+            } ]
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+            "description" : "2 CPU, 2 GB RAM, 2 Servers",
+            "guid" : "OI-813cda2cd8664c40a656ec4bf1b30ee9",
+            "isPreselected" : false,
+            "name" : "Deployment 1",
+            "optionChoiceId" : "061E1007-47F0-A2B2-BF47-3A2AB990411C",
+            "optionId" : "OI-e9c7cc2eab994f958a2079a754d7ac0d",
+            "priceObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Price",
+              "amount" : "55.00 USD",
+              "guid" : "OI-e075880dabe44630b39d42f2928378d5",
+              "isOnboarded" : true,
+              "name" : "P6",
+              "optionChoice" : "/optionchoice/OI-813cda2cd8664c40a656ec4bf1b30ee9",
+              "period" : "MNTH",
+              "reconciliationID" : "367A2ECB-04AD-F9A0-362C-3A2B2E48A07B",
+              "status" : "Draft",
+              "tokenID" : "0",
+              "uom" : "INST"
+            } ],
+            "type" : "Other",
+            "uiOptionChoiceEffectsObject" : [ {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+              "change" : "replace",
+              "cpuCount" : 2,
+              "guid" : "73977952-7591-4eff-baae-d618d43bb33f",
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "4d3b1b58-59eb-490d-a36c-31ef5647afd4",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "bc4f3eae-d889-4bc2-ba3a-c3e4c87a26ba",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "bc4f3eae-d889-4bc2-ba3a-c3e4c87a26ba",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-813cda2cd8664c40a656ec4bf1b30ee9"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+              "change" : "replace",
+              "guid" : "d3475722-2f5e-46c6-8b73-d9f5bfb96ee3",
+              "memory" : 2048,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "e440b508-841b-47e5-93f8-19601138e820",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "e544ac75-eb0a-4088-b67e-62c66f98ce2c",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "e544ac75-eb0a-4088-b67e-62c66f98ce2c",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-813cda2cd8664c40a656ec4bf1b30ee9"
+            }, {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+              "change" : "modify",
+              "guid" : "b8549313-e508-4366-9507-eef38829a84e",
+              "numberOfInstances" : 2,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "af5b3885-016d-4674-b849-5c2d65b7d801",
+                "name" : "Server Group 2",
+                "tagGroup" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "0cffd09d-fdaa-4ea8-b420-b882921c485b",
+                  "name" : "ResourceSet",
+                  "tagScope" : "User_Defined"
+                },
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "description" : "@circular-reference-placeholder@",
+                  "guid" : "0cffd09d-fdaa-4ea8-b420-b882921c485b",
+                  "tagScope" : "User_Defined"
+                }
+              } ],
+              "uiOptionChoice" : "/OptionChoiceView/OI-813cda2cd8664c40a656ec4bf1b30ee9"
+            } ]
+          } ],
+          "type" : "Other"
+        } ]
+      } ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "c3ab6aae-0deb-402b-97d7-cf4642318600",
+        "imageURL" : "/csm/images/Software/App%202",
+        "name" : "App 2",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "1fd5b076-3612-4f40-8d1d-771c7ed70bf2",
+        "label" : "Server Group 2",
+        "name" : "Server Group 2",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "8b938d69-1aa3-4a43-bf13-991e6084ce2a",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "5faa0cf0-2219-4af6-a49b-6a840cc6dc14",
+    "definitionId" : "OI-9bfb32d46119459b83d281bf5f905cb9",
+    "externalID" : "SRHAA5V0HCW8ZAN3WRX8DUUVY46MU2###AG001143D417CBVuvCRQ1ergAQdJ8B",
+    "guid" : "OI-6ffaef4fe64548a0bb440593d292a348",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN3WRX8DUUVY46MU2",
+    "name" : "Oct23-MK- Service-MicroBP_Param Offering",
+    "offeringPricesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.beans.Price",
+      "amount" : "300.00 USD",
+      "guid" : "OI-d7bf1d0a27e94904bb55866931b757b7",
+      "isOnboarded" : true,
+      "name" : "p1",
+      "period" : "MNTH",
+      "reconciliationID" : "F48B47FD-0910-A3CA-631B-3E1ADEA6CE59",
+      "serviceOffering" : "/serviceoffering/OI-6ffaef4fe64548a0bb440593d292a348",
+      "status" : "Draft",
+      "tokenID" : "0",
+      "uom" : "INST"
+    } ],
+    "parametersObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "string",
+      "description" : "INSTALLDIR",
+      "guid" : "b022fa90-ea3f-4ed8-a828-b1626310c4a0",
+      "isRequired" : false,
+      "isUserInput" : true,
+      "label" : "INSTALLDIR",
+      "name" : "INSTALLDIR",
+      "value" : "C:\\PDP-APPParam"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+      "dataType" : "token",
+      "description" : "Global Token",
+      "guid" : "c11f3af6-303f-4081-a52f-30f6d59b5701",
+      "isRequired" : true,
+      "isUserInput" : false,
+      "label" : "Global Token",
+      "name" : "Global Token",
+      "value" : "/ResourceSet[name=Server Group 1]/ComputeContainer[0]/Server/hostName"
+    } ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 2,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ 512 ],
+      "guid" : "d75a91a0-f73e-418a-a94e-f5e1da3eb5be",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "2653f194-23f7-4756-ad0f-553dd79a03b9",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "Server Group 1",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "823946eb-a923-4105-961b-e9399e613365",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "c9f38529-2127-49a2-bced-d58f776427ac",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "dd8a8157-abec-4d02-817c-1b7e93933c86",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "086e1750-7d03-42ee-99a4-78e80993dc4b",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "14a4dd02-8888-4bf7-8635-edc9c395fc9b",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "87355a12-0545-4ab9-bd79-cf2a4bc71f40",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+        "dataType" : "string",
+        "description" : "SERVERNAME",
+        "guid" : "8aeabdf2-3157-46a6-bd01-057e8b2100a8",
+        "isRequired" : false,
+        "isUserInput" : true,
+        "label" : "SERVERNAME",
+        "name" : "SERVERNAME",
+        "value" : "localhost"
+      } ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "description" : "AMK023",
+        "guid" : "b4c3f146-c78a-4e55-95d2-7a26aebb7c65",
+        "imageURL" : "/csm/images/Software/AMK023",
+        "name" : "AMK023",
+        "parametersObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "boolean",
+          "description" : "IS_HIGHLIGHTED_Label desc",
+          "guid" : "9ebb6141-4a0b-4892-a687-168ead57cd43",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "IS_HIGHLIGHTED_Label",
+          "name" : "IS_HIGHLIGHTED",
+          "value" : "false"
+        } ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ 512 ],
+      "guid" : "3b597b7f-0616-435a-9e4e-28273abb101e",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "5d7f173f-aa08-4ae4-9873-b5ef549c9572",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1_MKO21",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "d84ab825-a3f1-49b0-b919-d07e0fc819e6",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "d294156d-bd6e-4c7d-b68e-58abaf7e6a81",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "49921995-acd2-4de5-8cc5-22d26c96d137",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "cfcb3fd6-67e4-4f39-bda3-2628ca9e86db",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "a474371d-8732-416b-84d7-f56ab586cde7",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "059392b3-6e90-491c-b7c8-b1256cf94bbb",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "7eca963b-0665-4600-a09f-b394d64d6cf1",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 2,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "011b3bec-2805-4f70-80fe-c00b5ac85f23",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "fc64a6ee-3992-41b5-8450-314ce6936e18",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+        "dataType" : "string",
+        "description" : "SERVERADMIN dESCRIPTION",
+        "guid" : "8dcc72c0-d590-4c7f-a6f8-2647e720cd1b",
+        "isRequired" : true,
+        "isUserInput" : true,
+        "label" : "SERVERADMINLabel",
+        "name" : "SERVERADMIN",
+        "value" : "PDPAdmin"
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+        "dataType" : "boolean",
+        "description" : "Is_Highlighted",
+        "guid" : "ce1bd6b9-35e8-4806-9f97-d4d6e97fd5bc",
+        "isRequired" : false,
+        "isUserInput" : true,
+        "label" : "Is_Highlighted",
+        "name" : "Is_Highlighted",
+        "value" : "true"
+      } ],
+      "serverCount" : 2,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "description" : "App 1_MK_Oct21 description",
+        "guid" : "2835a95d-8c79-4050-9f15-36be2584c508",
+        "imageURL" : "/csm/images/Software/App%201_MK_Oct21",
+        "name" : "App 1_MK_Oct21",
+        "parametersObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "string",
+          "description" : "SERVERNAME",
+          "guid" : "2260ecca-b224-467e-8964-c4ea4328492e",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "Servernamestring",
+          "name" : "SERVERNAMEstring",
+          "value" : "localhost"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "boolean",
+          "guid" : "3258e00c-f58f-4f93-b26e-8aa21c686d0c",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "boolentype",
+          "name" : "boolen",
+          "value" : "true"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "numeric",
+          "description" : "SERVERPORT",
+          "guid" : "257d2d2f-d172-4283-812c-e5da905212b7",
+          "isRequired" : true,
+          "isUserInput" : true,
+          "label" : "SERVERPORT",
+          "name" : "SERVERPORT",
+          "value" : "8080"
+        } ],
+        "tags" : [ ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "description" : "App 2_MK_Oct21_noSoftDefault",
+        "guid" : "193c0330-d4b2-4db6-bf1e-c92f6c479b1f",
+        "imageURL" : "/csm/images/Software/App%202_MKO21_noSoftDefault",
+        "name" : "App 2_MKO21_noSoftDefault",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "5fd31184-2936-4cf8-8a05-945d92396c6f",
+    "definitionId" : "OI-8e07fb6576aa4fb7bb4f039d6e89074e",
+    "externalID" : "SRHAA5V0HCW8ZAN3XIUOEHWXALL1J7###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-e2b15af851454084b4c2158c3a95cd4f",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN3XIUOEHWXALL1J7",
+    "name" : "Service Offering for Amar",
+    "offeringPricesObject" : [ ],
+    "optionCategoriesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "0d96ff43-168b-457d-b302-976f33855f2d",
+      "name" : "Default Category",
+      "offeringId" : "OI-e2b15af851454084b4c2158c3a95cd4f",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-4354155730ed499ab5f9765145571bb2",
+        "imageURL" : "/csm/images/Option/OI-4354155730ed499ab5f9765145571bb2",
+        "isMultiSelect" : false,
+        "name" : "Amar.DRO.CPU",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "2 CPU",
+          "guid" : "OI-d861b18e3d1f4e0a9c864175ad59a68a",
+          "isPreselected" : false,
+          "name" : "2 CPU",
+          "optionChoiceId" : "23F1D45B-789E-BB46-37E0-3F74898407A9",
+          "optionId" : "OI-4354155730ed499ab5f9765145571bb2",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "15.00 USD",
+            "guid" : "OI-265032a0bfa04ef695b8ded3c7df6e18",
+            "isOnboarded" : true,
+            "name" : "P3",
+            "optionChoice" : "/optionchoice/OI-d861b18e3d1f4e0a9c864175ad59a68a",
+            "period" : "MNTH",
+            "reconciliationID" : "970580C6-D718-0138-3C80-3F74DA558071",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "cpus",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "af86763a-02eb-4653-88c1-94ae779466ef",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-d861b18e3d1f4e0a9c864175ad59a68a"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "4 CPU",
+          "guid" : "OI-483e1059d8b24bc4a80e4db71237c9be",
+          "isPreselected" : false,
+          "name" : "4 CPU",
+          "optionChoiceId" : "76EA1DA9-014D-333F-4B81-3F7503C632F0",
+          "optionId" : "OI-4354155730ed499ab5f9765145571bb2",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "25.00 USD",
+            "guid" : "OI-1848f27f8382453f9e0e384beb979dbb",
+            "isOnboarded" : true,
+            "name" : "P6",
+            "optionChoice" : "/optionchoice/OI-483e1059d8b24bc4a80e4db71237c9be",
+            "period" : "MNTH",
+            "reconciliationID" : "93CE36B1-7292-1FF3-61AE-3F752D1FA632",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "cpus",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "b1785bc9-bb77-4638-bc33-b89bff8bea97",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-483e1059d8b24bc4a80e4db71237c9be"
+          } ]
+        } ],
+        "type" : "cpus"
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "02c40f97-9ef8-4ff1-85e9-101a5a41f463",
+      "name" : "Generic Options",
+      "offeringId" : "OI-e2b15af851454084b4c2158c3a95cd4f",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+        "imageURL" : "/csm/images/Option/OI-a0cc8ada655a42fba26982e4970cb5c4",
+        "isMultiSelect" : false,
+        "name" : "Amar.SG1.Gen",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 1",
+          "guid" : "OI-c342a14408ee411897382cce208c57af",
+          "isPreselected" : false,
+          "name" : "Deployment 1",
+          "optionChoiceId" : "513E270E-8CE1-BD4E-B533-3F6FE2B4AA81",
+          "optionId" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "10.00 USD",
+            "guid" : "OI-5da950bfe7114cdf80ea306cd3e288b2",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-c342a14408ee411897382cce208c57af",
+            "period" : "MNTH",
+            "reconciliationID" : "3928EA9D-090B-F76A-2B49-3F70110161C8",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "0a2dd078-4d27-425e-9f1b-7dcca5737387",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c342a14408ee411897382cce208c57af"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "0bb29a58-90bf-4821-b1d6-9f279506ce76",
+            "memory" : 2048,
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c342a14408ee411897382cce208c57af"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 2",
+          "guid" : "OI-9090e24507be4fd18faa5933b930c954",
+          "isPreselected" : false,
+          "name" : "Deployment 2",
+          "optionChoiceId" : "EC358FCE-106A-5A59-533D-3F703605F505",
+          "optionId" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "20.00 USD",
+            "guid" : "OI-bf2d00d9344e499b8e9e4d596b655e64",
+            "isOnboarded" : true,
+            "name" : "P2",
+            "optionChoice" : "/optionchoice/OI-9090e24507be4fd18faa5933b930c954",
+            "period" : "MNTH",
+            "reconciliationID" : "7E001910-037F-21EC-D1BB-3F70570D6915",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "c3bb81a3-f16b-4959-ba39-19dde6d7d2e1",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-9090e24507be4fd18faa5933b930c954"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "4cb3b417-503b-454f-b5ff-6ebc182c2313",
+            "memory" : 4086,
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-9090e24507be4fd18faa5933b930c954"
+          } ]
+        } ],
+        "type" : "Other"
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-695fd78ff2f545aa8e187d7174eac763",
+        "imageURL" : "/csm/images/Option/OI-695fd78ff2f545aa8e187d7174eac763",
+        "isMultiSelect" : false,
+        "name" : "Amar.SG2.Gen",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 1",
+          "guid" : "OI-829dd646dd594d85b49dd1f690c88965",
+          "isPreselected" : false,
+          "name" : "Deployment 1",
+          "optionChoiceId" : "58C4681D-F25B-F8C1-A901-3F724837A790",
+          "optionId" : "OI-695fd78ff2f545aa8e187d7174eac763",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "30.00 USD",
+            "guid" : "OI-2fc2989d2f6447949b127e8631d1ce02",
+            "isOnboarded" : true,
+            "name" : "P4",
+            "optionChoice" : "/optionchoice/OI-829dd646dd594d85b49dd1f690c88965",
+            "period" : "MNTH",
+            "reconciliationID" : "5278A8D3-2CAD-5D36-7E24-3F72663D5E8C",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "fb4e1f5f-7ecd-4b60-a9fd-08d9d8dcdd0a",
+            "name" : "SG2",
+            "uiOptionChoice" : "/OptionChoiceView/OI-829dd646dd594d85b49dd1f690c88965"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "1993fd60-1d0f-4c06-8fb8-b7c58898eccd",
+            "name" : "SG2",
+            "numberOfInstances" : 2,
+            "uiOptionChoice" : "/OptionChoiceView/OI-829dd646dd594d85b49dd1f690c88965"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 2",
+          "guid" : "OI-a5553e6fb4c040bbb8a661cb586629f0",
+          "isPreselected" : false,
+          "name" : "Deployment 2",
+          "optionChoiceId" : "1BD8DC4F-06C6-201C-BB50-3F728F8DF90F",
+          "optionId" : "OI-695fd78ff2f545aa8e187d7174eac763",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "40.00 USD",
+            "guid" : "OI-9c84a450d5dd4b838b5076ad6d97b846",
+            "isOnboarded" : true,
+            "name" : "P5",
+            "optionChoice" : "/optionchoice/OI-a5553e6fb4c040bbb8a661cb586629f0",
+            "period" : "MNTH",
+            "reconciliationID" : "EF2458B2-E27F-10C5-325D-3F72A4EFAA25",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "2ad97050-1411-4143-b916-ce7352a10ce7",
+            "name" : "SG2",
+            "uiOptionChoice" : "/OptionChoiceView/OI-a5553e6fb4c040bbb8a661cb586629f0"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "f4eb64dd-b0b0-440f-84e7-cfc8f5ceecd4",
+            "name" : "SG2",
+            "numberOfInstances" : 4,
+            "uiOptionChoice" : "/OptionChoiceView/OI-a5553e6fb4c040bbb8a661cb586629f0"
+          } ]
+        } ],
+        "type" : "Other"
+      } ]
+    } ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "@circular-reference-placeholder@",
+        "guid" : "OI-d861b18e3d1f4e0a9c864175ad59a68a"
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "@circular-reference-placeholder@",
+        "guid" : "OI-483e1059d8b24bc4a80e4db71237c9be"
+      } ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "d94bc5fa-c979-4ba2-9190-776fe2b60382",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "689d5a9c-d5d6-4e3f-9381-a78a923b2639",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "f30f9b98-78c4-462d-bdd1-d9e31b626cf2",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "0a82c0a8-3f5a-4302-8a4b-36470a6bb9f7",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "ea63a604-5c01-4351-b38b-5d7b94530a5b",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "9d46481e-00d1-499c-a640-2293deb345bb",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "9ed03519-a8c3-4754-b859-c586b3338f78",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "90503238-2fc6-4318-8a24-6028316da34a",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "0b902749-ca8d-46ee-9ec3-e7fdbf579da3",
+        "imageURL" : "/csm/images/Software/App%201",
+        "name" : "App 1",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "e12f96f2-bf84-430d-8903-de760c487e6f",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "d4527e54-c37b-4f10-93d4-2a66468e0ded",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG2",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "0bed7488-0b06-4ef4-8a2f-4fd149031eb5",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "d5f98a77-a7da-42fc-bef1-2b96923a83a1",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "88f037ce-e179-40e6-9a36-59f4e6d59e18",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "bf80e7fd-7e89-4c1c-acbf-17f615f38ba2",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "21333a46-5df6-43f0-ba2e-3b892289d5cb",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "d250bf43-b432-49a1-a592-7e143061d239",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "d1ef36a9-03d7-4a2a-b663-1fcadc745783",
+        "imageURL" : "/csm/images/Software/App%202",
+        "name" : "App 2",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "76de9274-5d71-444f-a4ea-f5bc4a35a3cc",
+    "definitionId" : "OI-65249a347c2440de8a7ee5f7056078c2",
+    "externalID" : "SRHAA5V0HCW8ZAN4HX3026LYC49737###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-700e24a32aee4a0b80e6388986afdc96",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN4HX3026LYC49737",
+    "name" : "Resize System Disk",
+    "offeringPricesObject" : [ ],
+    "optionCategoriesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "42f408a1-0683-40e6-a1c9-c0a4e87d14f8",
+      "name" : "Default Category",
+      "offeringId" : "OI-700e24a32aee4a0b80e6388986afdc96",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+        "imageURL" : "/csm/images/Option/OI-a0cc8ada655a42fba26982e4970cb5c4",
+        "isMultiSelect" : false,
+        "name" : "Amar.SG1.Gen",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 1",
+          "guid" : "OI-c342a14408ee411897382cce208c57af",
+          "isPreselected" : false,
+          "name" : "Deployment 1",
+          "optionChoiceId" : "513E270E-8CE1-BD4E-B533-3F6FE2B4AA81",
+          "optionId" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "10.00 USD",
+            "guid" : "OI-5da950bfe7114cdf80ea306cd3e288b2",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-c342a14408ee411897382cce208c57af",
+            "period" : "MNTH",
+            "reconciliationID" : "3928EA9D-090B-F76A-2B49-3F70110161C8",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "0236abed-7b8a-4cbe-a420-8feeb2dc027a",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c342a14408ee411897382cce208c57af"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "e245de45-efdd-4e5c-a9c0-f96b92f08ab4",
+            "memory" : 2048,
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-c342a14408ee411897382cce208c57af"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Deployment 2",
+          "guid" : "OI-9090e24507be4fd18faa5933b930c954",
+          "isPreselected" : false,
+          "name" : "Deployment 2",
+          "optionChoiceId" : "EC358FCE-106A-5A59-533D-3F703605F505",
+          "optionId" : "OI-a0cc8ada655a42fba26982e4970cb5c4",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "20.00 USD",
+            "guid" : "OI-bf2d00d9344e499b8e9e4d596b655e64",
+            "isOnboarded" : true,
+            "name" : "P2",
+            "optionChoice" : "/optionchoice/OI-9090e24507be4fd18faa5933b930c954",
+            "period" : "MNTH",
+            "reconciliationID" : "7E001910-037F-21EC-D1BB-3F70570D6915",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "aba6dc53-f133-475d-8e8c-03378ea38202",
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-9090e24507be4fd18faa5933b930c954"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "19617764-5e9b-4f4f-842d-39095591dd3c",
+            "memory" : 4086,
+            "name" : "SG1",
+            "uiOptionChoice" : "/OptionChoiceView/OI-9090e24507be4fd18faa5933b930c954"
+          } ]
+        } ],
+        "type" : "Other"
+      } ]
+    } ],
+    "parametersObject" : [ ],
+    "postDeployableOfferingsObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.PostDeployableOfferingView",
+      "cpuOptionChoicesObject" : [ ],
+      "definitionId" : "OI-65249a347c2440de8a7ee5f7056078c2",
+      "diskOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "15 GB Disk",
+        "guid" : "OI-2c70ba8bdab74a86b2672a651d6f4d6a",
+        "isPreselected" : false,
+        "name" : "15 GB Disk",
+        "optionChoiceId" : "4DEF4BE9-F827-3282-DDF4-5D17936F5248",
+        "optionId" : "OI-1f472af13d294c4e8e01e3354724050d",
+        "type" : "disks",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DiskOptionChoiceEffectView",
+          "change" : "replace",
+          "diskCapacity" : 15360,
+          "diskNumber" : 1,
+          "guid" : "b8bde621-0e2f-4571-a673-b311f3d2ec60",
+          "uiOptionChoice" : "/OptionChoiceView/OI-2c70ba8bdab74a86b2672a651d6f4d6a"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "16 GB Disk",
+        "guid" : "OI-3a143cf22ffc4b64bcc7ce48dfea99b3",
+        "isPreselected" : false,
+        "name" : "16 GB Disk",
+        "optionChoiceId" : "82F8C558-375C-CEAD-4AB3-5D17E64FE204",
+        "optionId" : "OI-1f472af13d294c4e8e01e3354724050d",
+        "type" : "disks",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DiskOptionChoiceEffectView",
+          "change" : "replace",
+          "diskCapacity" : 16384,
+          "diskNumber" : 1,
+          "guid" : "35c24e77-f99c-4674-ac23-d4a2175932ac",
+          "uiOptionChoice" : "/OptionChoiceView/OI-3a143cf22ffc4b64bcc7ce48dfea99b3"
+        } ]
+      } ],
+      "externalID" : "SRHAA5V0HCW8ZAN4HX3026LYC49737###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+      "guid" : "OI-65249a347c2440de8a7ee5f7056078c2",
+      "memOptionChoicesObject" : [ ],
+      "name" : "Resize System Disk",
+      "nicOptionChoicesObject" : [ ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "softwareOptionsObject" : [ ]
+    } ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "2 CPU",
+        "guid" : "OI-d861b18e3d1f4e0a9c864175ad59a68a",
+        "isPreselected" : false,
+        "name" : "2 CPU",
+        "optionChoiceId" : "23F1D45B-789E-BB46-37E0-3F74898407A9",
+        "optionId" : "OI-4354155730ed499ab5f9765145571bb2",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "15.00 USD",
+          "guid" : "OI-265032a0bfa04ef695b8ded3c7df6e18",
+          "isOnboarded" : true,
+          "name" : "P3",
+          "optionChoice" : "/optionchoice/OI-d861b18e3d1f4e0a9c864175ad59a68a",
+          "period" : "MNTH",
+          "reconciliationID" : "970580C6-D718-0138-3C80-3F74DA558071",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "cpus",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+          "change" : "replace",
+          "cpuCount" : 2,
+          "guid" : "746ffb72-f487-41f0-881f-70843c60f70a",
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-d861b18e3d1f4e0a9c864175ad59a68a"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "4 CPU",
+        "guid" : "OI-483e1059d8b24bc4a80e4db71237c9be",
+        "isPreselected" : false,
+        "name" : "4 CPU",
+        "optionChoiceId" : "76EA1DA9-014D-333F-4B81-3F7503C632F0",
+        "optionId" : "OI-4354155730ed499ab5f9765145571bb2",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "25.00 USD",
+          "guid" : "OI-1848f27f8382453f9e0e384beb979dbb",
+          "isOnboarded" : true,
+          "name" : "P6",
+          "optionChoice" : "/optionchoice/OI-483e1059d8b24bc4a80e4db71237c9be",
+          "period" : "MNTH",
+          "reconciliationID" : "93CE36B1-7292-1FF3-61AE-3F752D1FA632",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "cpus",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+          "change" : "replace",
+          "cpuCount" : 4,
+          "guid" : "d3c21976-94b1-4903-aa28-c25b240f9e88",
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-483e1059d8b24bc4a80e4db71237c9be"
+        } ]
+      } ],
+      "diskOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "5 GB Disk",
+        "guid" : "OI-da4eaec2c28143d7b50493fabce777b9",
+        "isPreselected" : false,
+        "name" : "5 GB Disk",
+        "optionChoiceId" : "DACE7EBE-813D-248A-C267-5D15865D144B",
+        "optionId" : "OI-0d7a4500d22a4e21ac0cdb7bef4b3769",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "20.00 USD",
+          "guid" : "OI-553f5f09659d49c5972406dcdeb96e43",
+          "isOnboarded" : true,
+          "name" : "P1",
+          "optionChoice" : "/optionchoice/OI-da4eaec2c28143d7b50493fabce777b9",
+          "period" : "MNTH",
+          "reconciliationID" : "4635E09A-2740-5D0C-5C0C-5D15BD7ECAF9",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "disks",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DiskOptionChoiceEffectView",
+          "change" : "add",
+          "diskCapacity" : 5120,
+          "diskNumber" : 1,
+          "guid" : "f28110c7-553d-49a1-b1c0-7f934cdf3561",
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-da4eaec2c28143d7b50493fabce777b9"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "10 GB Disk",
+        "guid" : "OI-2c16181713d04164aaddeef9432a178a",
+        "isPreselected" : false,
+        "name" : "10 GB Disk",
+        "optionChoiceId" : "18E4A727-1C3A-7261-D975-5D15E42E2ABE",
+        "optionId" : "OI-0d7a4500d22a4e21ac0cdb7bef4b3769",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "450.00 USD",
+          "guid" : "OI-c54f7f4397564bd080eaa6192aab40fc",
+          "isOnboarded" : true,
+          "name" : "P2",
+          "optionChoice" : "/optionchoice/OI-2c16181713d04164aaddeef9432a178a",
+          "period" : "MNTH",
+          "reconciliationID" : "E9FFC404-0031-DD76-D0E0-5D1609C915F1",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "disks",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DiskOptionChoiceEffectView",
+          "change" : "add",
+          "diskCapacity" : 10240,
+          "diskNumber" : 2,
+          "guid" : "583a02e0-5df1-4213-8efa-d4ae0ccb403d",
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-2c16181713d04164aaddeef9432a178a"
+        } ]
+      } ],
+      "disks" : [ ],
+      "guid" : "857bf836-e3e9-4fc2-9576-096a5256665b",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "0f159448-8eb2-4739-abf3-b8653da18548",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Windows 2008",
+        "guid" : "OI-d206763f7940450fa283274ce4aa2b6d",
+        "imageURL" : "/csm/images/OperatingSystem/Windows%202008",
+        "isPreselected" : false,
+        "name" : "Windows 2008",
+        "optionChoiceId" : "42385C66-E93B-1614-8443-43F298B41A18",
+        "optionId" : "OI-5b41d13dc25e4b5a94bf33f7015e0370",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "100.00 USD",
+          "guid" : "OI-2f1a1ea606f34387b79caf59dd6f8f25",
+          "isOnboarded" : true,
+          "name" : "P1",
+          "optionChoice" : "/optionchoice/OI-d206763f7940450fa283274ce4aa2b6d",
+          "period" : "MNTH",
+          "reconciliationID" : "DB58F459-1427-EBE1-692A-43F2C7CFB54C",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "computecontainer",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "03a92d69-fc12-4ecf-8094-b60170308ceb",
+          "installableResourceObject" : {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+            "guid" : "8225a825-13a7-4a3d-8fa6-a9a5da94f215",
+            "manufacturer" : "vmware",
+            "productCatalogId" : "PDC000000012127",
+            "productName" : "VMW-W2k8-64B-20GB"
+          },
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-d206763f7940450fa283274ce4aa2b6d"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Linux 5.0",
+        "guid" : "OI-a4b41c8cebf045ccab01241deaf6227a",
+        "imageURL" : "/csm/images/OperatingSystem/Linux%205.0",
+        "isPreselected" : false,
+        "name" : "Linux 5.0",
+        "optionChoiceId" : "2003B21E-2CF8-68D7-3FBC-43F2F840BF2D",
+        "optionId" : "OI-5b41d13dc25e4b5a94bf33f7015e0370",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "150.00 USD",
+          "guid" : "OI-657df98270c44776a603f2b0d3d6ee73",
+          "isOnboarded" : true,
+          "name" : "P2",
+          "optionChoice" : "/optionchoice/OI-a4b41c8cebf045ccab01241deaf6227a",
+          "period" : "MNTH",
+          "reconciliationID" : "3CF5F8E6-DB2D-7F10-1CCB-43F329491421",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "computecontainer",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "6a4699c1-16af-4efe-a3b5-faa21489c3eb",
+          "installableResourceObject" : {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+            "guid" : "fb3b90e4-f396-4bc4-9b2d-46d12c59a266",
+            "manufacturer" : "vmware",
+            "productCatalogId" : "PDC000000012133",
+            "productName" : "VMW-RHEL55-64-LAMPVM"
+          },
+          "name" : "SG1",
+          "uiOptionChoice" : "/OptionChoiceView/OI-a4b41c8cebf045ccab01241deaf6227a"
+        } ]
+      } ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1",
+      "networkOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Customer NIC 4",
+        "guid" : "OI-3b652ac039424132b202b218ad0055e5",
+        "isPreselected" : false,
+        "name" : "Customer NIC 4",
+        "optionChoiceId" : "47AA2A9D-E6E8-47BB-CDE3-580103DFCB84",
+        "optionId" : "OI-e4a4c0217a4a46a5b7cd6f13fdab4265",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "25.00 USD",
+          "guid" : "OI-2a0a451997534ce294dd578d64a77c45",
+          "isOnboarded" : true,
+          "name" : "P1",
+          "optionChoice" : "/optionchoice/OI-3b652ac039424132b202b218ad0055e5",
+          "period" : "MNTH",
+          "reconciliationID" : "7BE8B54E-DE03-CAD8-C8DB-580140263ED9",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "nics",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkOptionChoiceEffectView",
+          "change" : "add",
+          "guid" : "2945099f-8bd9-47b7-b4ac-7e7dac7821f9",
+          "name" : "SG1",
+          "networkObject" : {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+            "guid" : "a4739742-143f-42a2-b10d-ebdab279b512",
+            "isDynamic" : false,
+            "isPublic" : false,
+            "nicNumber" : 4,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "172ff86e-e61e-4f9b-be8d-4d0d503e118d",
+              "label" : "Customer",
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "1c7fab75-f3de-4af1-9728-a5d9539dba89",
+                "name" : "NetworkType",
+                "tagScope" : "User_Defined"
+              }
+            } ]
+          },
+          "uiOptionChoice" : "/OptionChoiceView/OI-3b652ac039424132b202b218ad0055e5"
+        } ]
+      } ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "502f3f4a-78e1-4a9d-b3e8-506918cc8a20",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "76ee505d-d12e-4aca-bd32-d420daf53680",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "07351a3f-ef68-41c6-baa3-2b41b0f9664e",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "21eee642-6c23-4119-a415-6f2db2204ea1",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "b2d6beea-f35a-4d43-a298-2b48175032bb",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "591dd76d-92ba-4db4-998f-d490ffc33178",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "2 Servers",
+        "guid" : "OI-1be8ecb9a3b24631899bd20677293d5e",
+        "isPreselected" : false,
+        "name" : "2 Servers",
+        "optionChoiceId" : "3DE16615-6C3E-AFA1-3A6E-43E4C73B19BF",
+        "optionId" : "OI-eb64dcdbe9be44a6a729aa7ee0e1af70",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "45.00 USD",
+          "guid" : "OI-9bea9476fa294e198115948a675f0d4d",
+          "isOnboarded" : true,
+          "name" : "P5",
+          "optionChoice" : "/optionchoice/OI-1be8ecb9a3b24631899bd20677293d5e",
+          "period" : "MNTH",
+          "reconciliationID" : "A89E6686-90E4-0290-CB83-43E4E79DC2AF",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "compute",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "02341eea-6114-4b46-81a7-155c67c8c179",
+          "name" : "SG1",
+          "numberOfInstances" : 2,
+          "uiOptionChoice" : "/OptionChoiceView/OI-1be8ecb9a3b24631899bd20677293d5e"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "4 Servers",
+        "guid" : "OI-15c09bf227c34e80ba14de885fea4294",
+        "isPreselected" : false,
+        "name" : "4 Servers",
+        "optionChoiceId" : "5B46841B-4C7A-3103-C80C-43E513034D6C",
+        "optionId" : "OI-eb64dcdbe9be44a6a729aa7ee0e1af70",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "55.00 USD",
+          "guid" : "OI-2d8d437f2a9c474789067cbefe8a00d4",
+          "isOnboarded" : true,
+          "name" : "P5",
+          "optionChoice" : "/optionchoice/OI-15c09bf227c34e80ba14de885fea4294",
+          "period" : "MNTH",
+          "reconciliationID" : "EE7EBE79-FF99-1D14-F0C3-43E5458922CA",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "compute",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "ba9a98bb-138b-41b3-9830-0594362343d3",
+          "name" : "SG1",
+          "numberOfInstances" : 4,
+          "uiOptionChoice" : "/OptionChoiceView/OI-15c09bf227c34e80ba14de885fea4294"
+        } ]
+      } ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-8851be324e4a438599a6bc58123681a9",
+        "isMultiSelect" : true,
+        "name" : "DRO.Software.SG1",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "PHP",
+          "guid" : "OI-dcf7757364b646c697f133a9a67eb459",
+          "imageURL" : "/csm/images/Software/PHP",
+          "isPreselected" : false,
+          "name" : "PHP",
+          "optionChoiceId" : "1803FCC7-CA70-4E0E-9C8F-43F69EB04E03",
+          "optionId" : "OI-8851be324e4a438599a6bc58123681a9",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "65.00 USD",
+            "guid" : "OI-e1f7ec9e8eb84830a411fb102c2158fa",
+            "isOnboarded" : true,
+            "name" : "P4",
+            "optionChoice" : "/optionchoice/OI-dcf7757364b646c697f133a9a67eb459",
+            "period" : "MNTH",
+            "reconciliationID" : "681BEAEC-6E65-DB33-AE97-43F6BD82F48D",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "software",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "0d54017f-89ee-4bed-bcce-9bb9781b1afe",
+            "name" : "App Micro BP",
+            "sequence" : 9999,
+            "softwareObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+              "guid" : "8d20609f-103e-4c2f-855b-84d231b5ad2f",
+              "manufacturer" : "WIN",
+              "productCatalogId" : "PDC000000012228",
+              "productName" : "Windows_PHP"
+            },
+            "uiOptionChoice" : "/OptionChoiceView/OI-dcf7757364b646c697f133a9a67eb459"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Apache 1.0",
+          "guid" : "OI-e6d24ddc743e4727bea76d21c49ed1e2",
+          "imageURL" : "/csm/images/Software/Apache%201.0",
+          "isPreselected" : false,
+          "name" : "Apache 1.0",
+          "optionChoiceId" : "41226342-A944-7178-087E-43F487301B75",
+          "optionId" : "OI-8851be324e4a438599a6bc58123681a9",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "45.00 USD",
+            "guid" : "OI-e230117823bb44829ca95b54a94c768a",
+            "isOnboarded" : true,
+            "name" : "P5",
+            "optionChoice" : "/optionchoice/OI-e6d24ddc743e4727bea76d21c49ed1e2",
+            "period" : "MNTH",
+            "reconciliationID" : "22BF3B48-9545-DAFA-8C8E-43F4B7FAE3A4",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "software",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "2b3c7590-5040-494f-bddb-6412fcf7026d",
+            "name" : "App Micro BP",
+            "sequence" : 9999,
+            "softwareObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+              "guid" : "9c3139ce-4c13-43c0-8f93-78bb07c33aca",
+              "manufacturer" : "WIN",
+              "productCatalogId" : "PDC000000012229",
+              "productName" : "Windows_Apache"
+            },
+            "uiOptionChoice" : "/OptionChoiceView/OI-e6d24ddc743e4727bea76d21c49ed1e2"
+          } ]
+        } ],
+        "type" : "software"
+      } ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "48e8e7c6-2a5f-489c-b4c5-ab1e941c7020",
+        "imageURL" : "/csm/images/Software/App%20Micro%20BP",
+        "name" : "App Micro BP",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "9dda43cc-911c-4ef3-ba99-c59b981f477e",
+    "definitionId" : "OI-5afc19f9111c4a4bbab2f6c8aca31f99",
+    "externalID" : "SRHAA5V0HCW8ZAN4E8DWJT8BP2F69K###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-153ffc4a46fd498789bd712dd3968503",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN4E8DWJT8BP2F69K",
+    "name" : "Service with Micro BP and Options",
+    "offeringPricesObject" : [ ],
+    "optionCategoriesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "582a3eb1-f0d7-40d9-b4b4-cdf21eb2dccd",
+      "name" : "Generic Option",
+      "offeringId" : "OI-153ffc4a46fd498789bd712dd3968503",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-67165e4795b84e88918d2ad0cfcc4e0b",
+        "imageURL" : "/csm/images/Option/OI-67165e4795b84e88918d2ad0cfcc4e0b",
+        "isMultiSelect" : false,
+        "name" : "Gen.Opt.By.Tag",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "1 Server, 2 CPU, 2 GB RAM",
+          "guid" : "OI-f4aac830f5414793aa5472634ed0f826",
+          "isPreselected" : false,
+          "name" : "Small deployment",
+          "optionChoiceId" : "61D032F8-39B7-6A97-9234-539B7287F433",
+          "optionId" : "OI-67165e4795b84e88918d2ad0cfcc4e0b",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "200.00 USD",
+            "guid" : "OI-3f5ea3113e7442169adda27390ccdc84",
+            "isOnboarded" : true,
+            "name" : "P2",
+            "optionChoice" : "/optionchoice/OI-f4aac830f5414793aa5472634ed0f826",
+            "period" : "MNTH",
+            "reconciliationID" : "34DB1B10-9A9E-6FD2-7379-539BCDB35F5C",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 2,
+            "guid" : "88818bfe-3bbf-4942-ba85-2f7ea0817736",
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "80dc8d9c-9d95-4c97-a0a7-ed34f67ce7bd",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "a3460f0f-4e52-4d3d-b155-6d8a04cc4ee2",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "a3460f0f-4e52-4d3d-b155-6d8a04cc4ee2",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-f4aac830f5414793aa5472634ed0f826"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "33b2afbe-d7f9-4ed4-bacc-f1ea449387d4",
+            "memory" : 2048,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "6ea7dc09-b42b-4743-bdef-2a0e649a60fb",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "766ccdc3-4fe4-4ce9-9e99-73451cabafe9",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "766ccdc3-4fe4-4ce9-9e99-73451cabafe9",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-f4aac830f5414793aa5472634ed0f826"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "06891f3a-7578-451f-8e01-9e4c7a89e76b",
+            "numberOfInstances" : 1,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "0086caca-cd66-4f9d-b3c3-7e5011601e2c",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "8a71997a-c67e-4204-8996-8cf26f91925b",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "8a71997a-c67e-4204-8996-8cf26f91925b",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-f4aac830f5414793aa5472634ed0f826"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "2 Servers, 4 CPU, 4 GB RAM",
+          "guid" : "OI-3c98d481583944649d5f5cc8525e1abd",
+          "isPreselected" : false,
+          "name" : "Meduim Deployment",
+          "optionChoiceId" : "352A4744-7C29-3F7D-F92D-539C005445E3",
+          "optionId" : "OI-67165e4795b84e88918d2ad0cfcc4e0b",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "300.00 USD",
+            "guid" : "OI-2d09d08c7a3c49f6bd2d801e6642ac83",
+            "isOnboarded" : true,
+            "name" : "P3",
+            "optionChoice" : "/optionchoice/OI-3c98d481583944649d5f5cc8525e1abd",
+            "period" : "MNTH",
+            "reconciliationID" : "85FBCB3E-4B43-2D3D-5D3D-539C3C042A15",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "Other",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
+            "change" : "replace",
+            "cpuCount" : 4,
+            "guid" : "914572a9-4563-4488-a38b-c207d85281b0",
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "31fd5a24-d833-4a69-b8a5-cc1c5bff0e19",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "512aa98f-abb0-419d-83e0-6f4ab5a15edb",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "512aa98f-abb0-419d-83e0-6f4ab5a15edb",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-3c98d481583944649d5f5cc8525e1abd"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
+            "change" : "replace",
+            "guid" : "51208954-2935-4c58-90c7-7fc2dbbd5602",
+            "memory" : 4096,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "a1569126-921c-4289-95dd-824b5fd3183c",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "cf5a059d-8e51-4d3e-82c5-ff21f80d4f45",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "cf5a059d-8e51-4d3e-82c5-ff21f80d4f45",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-3c98d481583944649d5f5cc8525e1abd"
+          }, {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "d8ffd349-1e8e-43e6-b284-cb706b9f7181",
+            "numberOfInstances" : 2,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "11a20a15-c65b-4610-b588-0f65f79ff335",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "6343cfb8-2a72-4e26-bfac-57ecf8908469",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "6343cfb8-2a72-4e26-bfac-57ecf8908469",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-3c98d481583944649d5f5cc8525e1abd"
+          } ]
+        } ],
+        "type" : "Other"
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "d42504a8-433f-47de-a559-7813daa6928d",
+      "name" : "Generic OS Option",
+      "offeringId" : "OI-153ffc4a46fd498789bd712dd3968503",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-68078e4354154662b96921e77ddde519",
+        "imageURL" : "/csm/images/Option/OI-68078e4354154662b96921e77ddde519",
+        "isMultiSelect" : false,
+        "name" : "DRO.OS.By.TAG",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Windows 2008",
+          "guid" : "OI-0db48621ce804017afaf465d175b043b",
+          "imageURL" : "/csm/images/OperatingSystem/Windows%202008",
+          "isPreselected" : false,
+          "name" : "Windows 2008",
+          "optionChoiceId" : "43267D90-90F4-C6FE-DE84-53AB8601C0F4",
+          "optionId" : "OI-68078e4354154662b96921e77ddde519",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "45.00 USD",
+            "guid" : "OI-76940dfb96b24b45bd4b394d83b7b05d",
+            "isOnboarded" : true,
+            "name" : "P9",
+            "optionChoice" : "/optionchoice/OI-0db48621ce804017afaf465d175b043b",
+            "period" : "MNTH",
+            "reconciliationID" : "3869B5CE-1A1C-F383-B5D2-53ABC7BF391D",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "computecontainer",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "e1fabf6c-7a7a-48af-8e83-f099e2ddfead",
+            "installableResourceObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+              "guid" : "550e94bd-614f-486d-b461-56feb62e540c",
+              "manufacturer" : "vmware",
+              "productCatalogId" : "PDC000000012127",
+              "productName" : "VMW-W2k8-64B-20GB"
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "fd054d98-339c-4007-8ce3-8804bde4b401",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "e76bdaf1-f419-434b-a6f2-e4d45bb53cad",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "e76bdaf1-f419-434b-a6f2-e4d45bb53cad",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-0db48621ce804017afaf465d175b043b"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Linux 5.0",
+          "guid" : "OI-2e22d906cbc34808ae6c8a7946853598",
+          "imageURL" : "/csm/images/OperatingSystem/Linux%205.0",
+          "isPreselected" : false,
+          "name" : "Linux 5.0",
+          "optionChoiceId" : "D690A11B-814E-93E3-C034-53ABF22B557F",
+          "optionId" : "OI-68078e4354154662b96921e77ddde519",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "35.00 USD",
+            "guid" : "OI-fa4c0b9ab5494a26a8698f5772b96fb1",
+            "isOnboarded" : true,
+            "name" : "P8",
+            "optionChoice" : "/optionchoice/OI-2e22d906cbc34808ae6c8a7946853598",
+            "period" : "MNTH",
+            "reconciliationID" : "B59F6483-673C-8E12-9BD4-53AC6CCA70A0",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "computecontainer",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceOptionChoiceEffectView",
+            "change" : "modify",
+            "guid" : "9be203bd-927b-4502-a16b-012c629b8eee",
+            "installableResourceObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+              "guid" : "a6e94a06-5118-4a62-a190-84b29b73a4de",
+              "manufacturer" : "vmware",
+              "productCatalogId" : "PDC000000012133",
+              "productName" : "VMW-RHEL55-64-LAMPVM"
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "6af9da32-9bde-4f61-86a0-f63f666fefeb",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "03f61409-06a5-4345-bda3-f6d111dc4cd6",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "03f61409-06a5-4345-bda3-f6d111dc4cd6",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-2e22d906cbc34808ae6c8a7946853598"
+          } ]
+        } ],
+        "type" : "computecontainer"
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.CategoryView",
+      "guid" : "064400fa-6ab7-4bff-b815-bca1798ed4e7",
+      "name" : "Add NIC Option",
+      "offeringId" : "OI-153ffc4a46fd498789bd712dd3968503",
+      "optionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-9e22d183683243a0b678ae3cacd2829d",
+        "imageURL" : "/csm/images/Option/OI-9e22d183683243a0b678ae3cacd2829d",
+        "isMultiSelect" : false,
+        "name" : "DRO.Add NIC.By.TAG",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "NIC 5",
+          "guid" : "OI-f240088836c8443fbc638ae51e5d4854",
+          "isPreselected" : false,
+          "name" : "NIC 5",
+          "optionChoiceId" : "61EBAC79-1823-D47A-DC51-58252FD6022B",
+          "optionId" : "OI-9e22d183683243a0b678ae3cacd2829d",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "35.00 USD",
+            "guid" : "OI-96252deb99144cf68f4167e2d0b652e0",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-f240088836c8443fbc638ae51e5d4854",
+            "period" : "MNTH",
+            "reconciliationID" : "FF384A1F-C343-64FB-14A4-58256900C4D0",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "nics",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "c9f034c6-0f7c-4113-a583-2413df314263",
+            "networkObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+              "guid" : "1ed7508a-afeb-4e59-b021-78d9bbe3c95a",
+              "isDynamic" : false,
+              "isPublic" : false,
+              "nicNumber" : 5,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "7134bf10-508f-4371-b8d5-3a99a0e86509",
+                "label" : "Customer",
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "1e16c82c-6c37-4c53-8d18-74c5affb84a0",
+                  "name" : "NetworkType",
+                  "tagScope" : "User_Defined"
+                }
+              } ]
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "80a52383-47f1-4cca-b62b-13917c62b93a",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "ada0e803-6ec8-486c-970a-f79f0389ab76",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "ada0e803-6ec8-486c-970a-f79f0389ab76",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-f240088836c8443fbc638ae51e5d4854"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "NIC 6",
+          "guid" : "OI-5954ed4f04704dc1afd562e59ee28512",
+          "isPreselected" : false,
+          "name" : "NIC 6",
+          "optionChoiceId" : "3AD9F6C5-0FB8-3EE7-6B55-5825924B238E",
+          "optionId" : "OI-9e22d183683243a0b678ae3cacd2829d",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "45.00 USD",
+            "guid" : "OI-3595326de5b943f2bc50d5cf3848b8f8",
+            "isOnboarded" : true,
+            "name" : "P1",
+            "optionChoice" : "/optionchoice/OI-5954ed4f04704dc1afd562e59ee28512",
+            "period" : "MNTH",
+            "reconciliationID" : "72002800-3D5E-3B9B-0FE3-5825B2D6F68C",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "nics",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "2f484642-af0c-40ff-9798-914ffba8eda4",
+            "networkObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+              "guid" : "1efd49db-dfe1-4418-b8c9-bd375ec13966",
+              "isDynamic" : false,
+              "isPublic" : false,
+              "nicNumber" : 6,
+              "tags" : [ {
+                "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+                "guid" : "a4b13e84-f3ef-49ee-9a45-6f744f8edae2",
+                "label" : "Customer",
+                "tagGroupObject" : {
+                  "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                  "guid" : "1415ee99-f57e-4432-9bb3-c9d8fedf7825",
+                  "name" : "NetworkType",
+                  "tagScope" : "User_Defined"
+                }
+              } ]
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "bd769575-6594-4489-8994-8092f35db495",
+              "name" : "small",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "299764e2-d475-4b40-959d-5e09beab1bac",
+                "name" : "ResourceSet",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "299764e2-d475-4b40-959d-5e09beab1bac",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-5954ed4f04704dc1afd562e59ee28512"
+          } ]
+        } ],
+        "type" : "nics"
+      } ]
+    } ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "7789a501-73b7-4e6e-a984-a4560b808263",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "311691d1-ab02-4904-9bed-a62c8fb1ccbe",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG2",
+      "networkOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Customer NIC 6",
+        "guid" : "OI-79bc92c4d17e48368dede77430800aa1",
+        "isPreselected" : false,
+        "name" : "Customer NIC 6",
+        "optionChoiceId" : "D3ECBDFE-6DDF-8083-1C51-58016A6B4B1A",
+        "optionId" : "OI-e4a4c0217a4a46a5b7cd6f13fdab4265",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "35.00 USD",
+          "guid" : "OI-16d5b0c168e84a29975ae6fb93a6795d",
+          "isOnboarded" : true,
+          "name" : "P2",
+          "optionChoice" : "/optionchoice/OI-79bc92c4d17e48368dede77430800aa1",
+          "period" : "MNTH",
+          "reconciliationID" : "65EB28D1-5753-AC2B-9264-58018D1B4D00",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "nics",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkOptionChoiceEffectView",
+          "change" : "add",
+          "guid" : "741bd0e6-010c-48c7-a4b1-d5dba250acd0",
+          "name" : "SG2",
+          "networkObject" : {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+            "guid" : "05bb7009-49ba-4b42-878b-7503f50a945d",
+            "isDynamic" : false,
+            "isPublic" : false,
+            "nicNumber" : 6,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "aa9112eb-f348-48a1-a0f8-a899f77cc27c",
+              "label" : "Customer",
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "62fdc064-1426-405e-a1f2-be842dfac996",
+                "name" : "NetworkType",
+                "tagScope" : "User_Defined"
+              }
+            } ]
+          },
+          "uiOptionChoice" : "/OptionChoiceView/OI-79bc92c4d17e48368dede77430800aa1"
+        } ]
+      } ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "d0738136-e730-4a51-89ee-a257826855d7",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "d375c933-8651-4228-9372-99fd63d67360",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "dec495b6-2bc6-4889-a56b-71dfae765f2d",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "ac178532-420d-4abd-81cb-9f5f50548c7d",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "9118a962-d7de-434c-b18b-048447ab5817",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "893efde7-7fff-4807-bac0-b40b00976b55",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "guid" : "OI-dbbcba6b836544c09589a473fd4d3cf0",
+        "isMultiSelect" : false,
+        "name" : "DRO.Software,BY.TAG",
+        "optionChoicesObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Windows MySQL",
+          "guid" : "OI-7c06cffffc224b99bf5b7ae5b71af63c",
+          "imageURL" : "/csm/images/Software/Windows%20MySQL",
+          "isPreselected" : false,
+          "name" : "Windows MySQL",
+          "optionChoiceId" : "661FF18A-6BEC-99B9-C84A-53E8C0CCAB27",
+          "optionId" : "OI-dbbcba6b836544c09589a473fd4d3cf0",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "28.00 USD",
+            "guid" : "OI-612ff16e5ae2470f84a60b2c6da0f409",
+            "isOnboarded" : true,
+            "name" : "P8",
+            "optionChoice" : "/optionchoice/OI-7c06cffffc224b99bf5b7ae5b71af63c",
+            "period" : "MNTH",
+            "reconciliationID" : "B68AE716-1034-369F-F341-53E8EB9C0A65",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "software",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "661563ab-2789-4d30-a45e-7eb3577e88ea",
+            "sequence" : 9999,
+            "softwareObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+              "guid" : "32062889-a272-4118-84b5-c243f195fc23",
+              "manufacturer" : "WIN",
+              "productCatalogId" : "PDC000000012227",
+              "productName" : "Windows_MySQL"
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "c573515c-d724-4498-a150-af2c74c2cfa8",
+              "name" : "App1",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "8bf03dbf-0485-44a0-9141-a2ab4e15f0f2",
+                "name" : "Component",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "8bf03dbf-0485-44a0-9141-a2ab4e15f0f2",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-7c06cffffc224b99bf5b7ae5b71af63c"
+          } ]
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+          "description" : "Windows PHP",
+          "guid" : "OI-906fae673f2a4e4e8a4c9aadf425dfab",
+          "imageURL" : "/csm/images/Software/Windows%20PHP",
+          "isPreselected" : false,
+          "name" : "Windows PHP",
+          "optionChoiceId" : "3FF74EE3-7647-D116-DD5F-53E854512323",
+          "optionId" : "OI-dbbcba6b836544c09589a473fd4d3cf0",
+          "priceObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.beans.Price",
+            "amount" : "25.00 USD",
+            "guid" : "OI-43b0e5709a89470282e9b8ac508faf48",
+            "isOnboarded" : true,
+            "name" : "P9",
+            "optionChoice" : "/optionchoice/OI-906fae673f2a4e4e8a4c9aadf425dfab",
+            "period" : "MNTH",
+            "reconciliationID" : "04DA9D98-2386-0E31-D644-53E896887FEE",
+            "status" : "Draft",
+            "tokenID" : "0",
+            "uom" : "INST"
+          } ],
+          "type" : "software",
+          "uiOptionChoiceEffectsObject" : [ {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareOptionChoiceEffectView",
+            "change" : "add",
+            "guid" : "b12ba6c8-9a47-4433-b050-f3c21fd592cb",
+            "sequence" : 9999,
+            "softwareObject" : {
+              "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+              "guid" : "88b0f086-55fb-461a-97ea-adfc2f6216bb",
+              "manufacturer" : "WIN",
+              "productCatalogId" : "PDC000000012228",
+              "productName" : "Windows_PHP"
+            },
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "a30c5658-df1d-4ff2-bb55-60f917c5d6b6",
+              "name" : "App1",
+              "tagGroup" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "9dfe9c5d-39aa-46d7-b628-c0eac8b17dd6",
+                "name" : "Component",
+                "tagScope" : "User_Defined"
+              },
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "description" : "@circular-reference-placeholder@",
+                "guid" : "9dfe9c5d-39aa-46d7-b628-c0eac8b17dd6",
+                "tagScope" : "User_Defined"
+              }
+            } ],
+            "uiOptionChoice" : "/OptionChoiceView/OI-906fae673f2a4e4e8a4c9aadf425dfab"
+          } ]
+        } ],
+        "type" : "software"
+      } ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "c4e92be6-eb85-4e75-9e80-85c53f5f83dc",
+        "imageURL" : "/csm/images/Software/App%201",
+        "name" : "App 1",
+        "parametersObject" : [ ],
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "081355e7-98e6-4b56-a661-73be94f2427c",
+          "label" : "App1",
+          "name" : "App1",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "7bc0ff7a-e61b-4dac-b52e-dba8ab6d11f2",
+            "name" : "Component",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "726b7d50-3fd0-49e4-a804-1243aee09416",
+        "label" : "small",
+        "name" : "small",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "0ec6c163-c070-4767-9755-2b202701f52c",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "d084b623-c91b-4025-a0e0-029bb0231ac4",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "03b21237-19d4-43dc-a5e8-8aeaa746f64f",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1",
+      "networkOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "Customer NIC 4",
+        "guid" : "OI-3b652ac039424132b202b218ad0055e5",
+        "isPreselected" : false,
+        "name" : "Customer NIC 4",
+        "optionChoiceId" : "47AA2A9D-E6E8-47BB-CDE3-580103DFCB84",
+        "optionId" : "OI-e4a4c0217a4a46a5b7cd6f13fdab4265",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "25.00 USD",
+          "guid" : "OI-2a0a451997534ce294dd578d64a77c45",
+          "isOnboarded" : true,
+          "name" : "P1",
+          "optionChoice" : "/optionchoice/OI-3b652ac039424132b202b218ad0055e5",
+          "period" : "MNTH",
+          "reconciliationID" : "7BE8B54E-DE03-CAD8-C8DB-580140263ED9",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "nics",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkOptionChoiceEffectView",
+          "change" : "add",
+          "guid" : "6eea95d4-9b92-47f9-b5e3-8c276d5fa3dd",
+          "name" : "SG1",
+          "networkObject" : {
+            "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+            "guid" : "e9370715-f4a1-486b-9dfd-bf9cad18808c",
+            "isDynamic" : false,
+            "isPublic" : false,
+            "nicNumber" : 4,
+            "tags" : [ {
+              "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+              "guid" : "6b7e9c18-5824-437e-94b0-84a5abebbba9",
+              "label" : "Customer",
+              "tagGroupObject" : {
+                "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+                "guid" : "8f34a76a-3c4b-4679-aed7-10c585ddf775",
+                "name" : "NetworkType",
+                "tagScope" : "User_Defined"
+              }
+            } ]
+          },
+          "uiOptionChoice" : "/OptionChoiceView/OI-3b652ac039424132b202b218ad0055e5"
+        } ]
+      } ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "f44dff59-a516-48e3-b6ab-278352d17112",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "a258a7dd-d368-40e7-a911-231fba61ea44",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "87140da6-1a78-44c9-808f-b632b6d5bb8a",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "eeb5cfc0-1099-4581-887c-18100826df53",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "779747f0-e1fc-4bbf-844f-c240406b8e4d",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "5eb16b42-467a-44b8-a3ca-635050265500",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "2 Servers",
+        "guid" : "OI-1be8ecb9a3b24631899bd20677293d5e",
+        "isPreselected" : false,
+        "name" : "2 Servers",
+        "optionChoiceId" : "3DE16615-6C3E-AFA1-3A6E-43E4C73B19BF",
+        "optionId" : "OI-eb64dcdbe9be44a6a729aa7ee0e1af70",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "45.00 USD",
+          "guid" : "OI-9bea9476fa294e198115948a675f0d4d",
+          "isOnboarded" : true,
+          "name" : "P5",
+          "optionChoice" : "/optionchoice/OI-1be8ecb9a3b24631899bd20677293d5e",
+          "period" : "MNTH",
+          "reconciliationID" : "A89E6686-90E4-0290-CB83-43E4E79DC2AF",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "compute",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "99b3ec4d-422e-4808-9f7f-439674d99777",
+          "name" : "SG1",
+          "numberOfInstances" : 2,
+          "uiOptionChoice" : "/OptionChoiceView/OI-1be8ecb9a3b24631899bd20677293d5e"
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
+        "description" : "4 Servers",
+        "guid" : "OI-15c09bf227c34e80ba14de885fea4294",
+        "isPreselected" : false,
+        "name" : "4 Servers",
+        "optionChoiceId" : "5B46841B-4C7A-3103-C80C-43E513034D6C",
+        "optionId" : "OI-eb64dcdbe9be44a6a729aa7ee0e1af70",
+        "priceObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Price",
+          "amount" : "55.00 USD",
+          "guid" : "OI-2d8d437f2a9c474789067cbefe8a00d4",
+          "isOnboarded" : true,
+          "name" : "P5",
+          "optionChoice" : "/optionchoice/OI-15c09bf227c34e80ba14de885fea4294",
+          "period" : "MNTH",
+          "reconciliationID" : "EE7EBE79-FF99-1D14-F0C3-43E5458922CA",
+          "status" : "Draft",
+          "tokenID" : "0",
+          "uom" : "INST"
+        } ],
+        "type" : "compute",
+        "uiOptionChoiceEffectsObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.NumberOfInstancesOptionChoiceEffectView",
+          "change" : "modify",
+          "guid" : "556c3432-eaaa-4e24-b447-b8e02a3b546e",
+          "name" : "SG1",
+          "numberOfInstances" : 4,
+          "uiOptionChoice" : "/OptionChoiceView/OI-15c09bf227c34e80ba14de885fea4294"
+        } ]
+      } ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionView",
+        "description" : "@circular-reference-placeholder@",
+        "guid" : "OI-dbbcba6b836544c09589a473fd4d3cf0"
+      } ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "57b531f9-e56d-477f-8bf3-f3e1c13765ee",
+        "imageURL" : "/csm/images/Software/App%201",
+        "name" : "App 1",
+        "parametersObject" : [ ],
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "e57ca7fc-0982-41ea-9551-a3bdabee1c9c",
+          "label" : "App1",
+          "name" : "App1",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "379816e9-031f-43f9-b37e-65f041e037aa",
+            "name" : "Component",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "tags" : [ {
+        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+        "guid" : "bc99858c-92d8-44c9-bcb9-51a831f38806",
+        "label" : "small",
+        "name" : "small",
+        "tagGroup" : {
+          "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+          "guid" : "7ad05737-12d1-47db-a8e8-af0a1a6d7906",
+          "name" : "ResourceSet",
+          "tagScope" : "User_Defined"
+        }
+      } ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "5c9f4b31-375e-4c8c-a111-73f92068ae6e",
+    "definitionId" : "OI-d0359484c8ab4d32b2714a01906372b2",
+    "externalID" : "SRHAA5V0HCW8ZAN4GKI314PB2H6ERR###AG001143D417CBOKq7RQ_k8KBAr6cB",
+    "guid" : "OI-b0a5a12964c545079ab1da7ddc59555e",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HCW8ZAN4GKI314PB2H6ERR",
+    "name" : "00-Oct28-New Service_Update Param Offering",
+    "offeringPricesObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.beans.Price",
+      "amount" : "500.00 USD",
+      "guid" : "OI-7df7d4097d2a41c4a917acee4d2e48d0",
+      "isOnboarded" : true,
+      "name" : "p",
+      "period" : "MNTH",
+      "reconciliationID" : "6657AD70-07B4-A7AB-EDCD-5951EECC6A4A",
+      "serviceOffering" : "/serviceoffering/OI-b0a5a12964c545079ab1da7ddc59555e",
+      "status" : "Draft",
+      "tokenID" : "0",
+      "uom" : "INST"
+    } ],
+    "parametersObject" : [ ],
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "92c615fd-b82e-46d8-bd25-c45df1a61646",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "987c070c-77ec-446d-8f8c-3598d9879f40",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012127",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "SG1O23",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "7ed47355-eebd-4373-bb64-25636c4538fd",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "11eb1424-1f7a-41b3-92ec-b0fe489c1296",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "b52fda0c-50fa-40a7-97ea-9e52625d01ac",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "054ff5d5-0c81-4a03-ace6-f8b8951994ba",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "8521ada1-c2a8-4cae-b1ec-27c917e377c7",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "862c314e-4c53-4f0d-a44b-925707538f2f",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "87b25bf4-380a-417e-9be1-503eb75ba46d",
+        "imageURL" : "/csm/images/Software/App1_Apache",
+        "name" : "App1_Apache",
+        "parametersObject" : [ {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "numeric",
+          "description" : "SERVERPORT",
+          "guid" : "b38be0c1-3005-4684-9b81-61eb9aba2a95",
+          "isRequired" : false,
+          "isUserInput" : false,
+          "label" : "SERVERPORT",
+          "name" : "SERVERPORT",
+          "value" : "8080"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "string",
+          "description" : "SERVERNAME",
+          "guid" : "562f8352-8fbe-489a-9ffe-a90ff5495d15",
+          "isRequired" : false,
+          "isUserInput" : false,
+          "label" : "SERVERNAME",
+          "name" : "SERVERNAME",
+          "value" : "localhost"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "string",
+          "description" : "SERVERADMIN",
+          "guid" : "2f336110-c97e-416b-85ac-b39266b0af3a",
+          "isRequired" : false,
+          "isUserInput" : false,
+          "label" : "SERVERADMIN",
+          "name" : "SERVERADMIN",
+          "value" : "PDPAdmin"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "string",
+          "description" : "INSTALLDIR",
+          "guid" : "282577a8-de4f-4145-b881-826cc1acfdc5",
+          "isRequired" : false,
+          "isUserInput" : false,
+          "label" : "INSTALLDIR",
+          "name" : "INSTALLDIR",
+          "value" : "C:\\PDP-APPParam"
+        }, {
+          "cloudClass" : "com.bmc.cloud.model.view.beans.DeploymentParameterSpecView",
+          "dataType" : "boolean",
+          "description" : "IS_HIGHLIGHTED",
+          "guid" : "ded06351-c96d-44f7-ad73-478c8ce04877",
+          "isRequired" : false,
+          "isUserInput" : false,
+          "label" : "IS_HIGHLIGHTED",
+          "name" : "IS_HIGHLIGHTED",
+          "value" : "false"
+        } ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ]
+  }, {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "description" : "@circular-reference-placeholder@",
+    "guid" : "OI-700e24a32aee4a0b80e6388986afdc96"
+  } ],
+  "totalRows" : 10
+}]
