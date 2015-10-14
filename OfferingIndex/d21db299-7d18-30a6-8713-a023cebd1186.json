@@ -34,7 +34,7 @@
       "guid" : "c1c4c6e5-9df0-4b95-ad0f-941ead2e4fd0",
       "installableResource" : {
         "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
-        "guid" : "a20b21d8-1d91-4b05-ab62-cfac75680c83",
+        "guid" : "bbcb9045-60ff-42a9-b576-6684dfe4d57c",
         "imageURL" : "/csm/images/OperatingSystem/ami-b9fc82b8",
         "manufacturer" : "Amazon",
         "productCatalogId" : "PDC000000012627",
@@ -48,18 +48,18 @@
       "networkOptionChoicesObject" : [ ],
       "networksObject" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "6798b285-f46a-46ee-8013-395ecce308c2",
+        "guid" : "d67246a1-b909-4056-8ef8-ad6245cdf136",
         "isDynamic" : true,
         "isPublic" : true,
         "nicNumber" : 0,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "238158d3-2b01-44d9-940c-ddd46fa20e54",
+          "guid" : "73fb35a1-d550-4608-b83d-cc22e9ffbcfc",
           "label" : "Customer",
           "name" : "Customer",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "59527a5f-fced-4f85-b21b-65cf568b7aee",
+            "guid" : "212f0b20-7ff7-4e9f-b3b5-da6e9ddb24e3",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
@@ -71,7 +71,7 @@
       "softwareOptionsObject" : [ ],
       "softwares" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
-        "guid" : "67e48075-8847-4f8a-89c7-f15595d57c8d",
+        "guid" : "7d358f22-cbf9-459b-95d1-df16f73a82a2",
         "imageURL" : "/csm/images/Software/EC2_Auto_Comp",
         "name" : "EC2_Auto_Comp",
         "parametersObject" : [ ],
@@ -83,13 +83,13 @@
     "tags" : [ {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Cloud Services",
-      "guid" : "60d3fab5-36ae-46ae-8269-bb4017aae4d6",
+      "guid" : "93fd6352-9723-4adc-8725-748417479d5a",
       "label" : "Cloud Services",
       "name" : "Cloud Services"
     }, {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Auto_EC2_SingleTier_Keywords1",
-      "guid" : "92d75770-a48c-4ce0-af3d-a0d068bf4688",
+      "guid" : "0db8339b-5735-499a-88cd-1aeaf4555d34",
       "label" : "Auto_EC2_SingleTier_Keywords1",
       "name" : "Auto_EC2_SingleTier_Keywords1"
     } ]
