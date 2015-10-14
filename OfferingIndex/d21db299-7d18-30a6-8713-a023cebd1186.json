@@ -1,0 +1,109 @@
+{
+  "cloudClass" : "com.bmc.cloud.model.beans.OfferingIndex",
+  "definitionIsOffline" : false,
+  "definitionReconId" : "REHAA5V0HC3F9ANVRG9DAI46RTDADB",
+  "definitionStartDate" : 1356415200000,
+  "description" : "Auto_EC2_SingleTier windows service request",
+  "guid" : "d21db299-7d18-30a6-8713-a023cebd1186",
+  "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9ANVRG42AI0SWFCZU5",
+  "name" : "Auto_EC2_SingleTier",
+  "offeringType" : "SERVICE",
+  "offeringView" : {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "412bb199-9a25-4d69-b495-df32f937d7ec",
+    "definitionId" : "OI-bd20fa089094480488d5b010b3009515",
+    "definitionIsOffline" : false,
+    "definitionReconId" : "REHAA5V0HC3F9ANVRG9DAI46RTDADB",
+    "definitionStartDate" : 1356415200000,
+    "description" : "Auto_EC2_SingleTier windows service request",
+    "externalID" : "SRHAA5V0HC3F9ANVRG42AI0SWFCZU5###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-4f06a08a2a344f7cb618a0f1aa27e284",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9ANVRG42AI0SWFCZU5",
+    "name" : "Auto_EC2_SingleTier",
+    "offeringType" : "SERVICE",
+    "parametersObject" : [ ],
+    "postDeployableOfferingsObject" : [ ],
+    "reconciliationID" : "6194DBEB-BED4-4BF4-4262-388E51579EDF",
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "additionalDisksObject" : [ ],
+      "cpu" : 1,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "c1c4c6e5-9df0-4b95-ad0f-941ead2e4fd0",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "af6a2a0b-f579-4dc5-ba8b-bedf49f8cf8f",
+        "imageURL" : "/csm/images/OperatingSystem/ami-b9fc82b8",
+        "manufacturer" : "Amazon",
+        "productCatalogId" : "PDC000000012627",
+        "productName" : "ami-b9fc82b8"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "isVirtual" : true,
+      "memOptionChoicesObject" : [ ],
+      "memory" : 1024,
+      "name" : "EC2_Auto_RS",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "ddd02ecc-9d14-49f6-b1b8-238487a86652",
+        "isDynamic" : true,
+        "isPublic" : true,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "8a92d0e4-8ff4-456f-8081-c9eb3e59ed9b",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "fc184753-30be-4fc6-a43b-6db82caf159c",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "191268ef-2ecf-449b-9d57-cb449fcb0e31",
+        "imageURL" : "/csm/images/Software/EC2_Auto_Comp",
+        "name" : "EC2_Auto_Comp",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ],
+    "softwareContainerGroupSpecObject" : [ ],
+    "tags" : [ {
+      "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+      "description" : "DefinitionLabel:Cloud Services",
+      "guid" : "88256268-b257-48d6-9013-355e29136205",
+      "label" : "Cloud Services",
+      "name" : "Cloud Services"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+      "description" : "DefinitionLabel:Auto_EC2_SingleTier_Keywords1",
+      "guid" : "1ec3ff37-3d94-4561-87ce-df017da53dd5",
+      "label" : "Auto_EC2_SingleTier_Keywords1",
+      "name" : "Auto_EC2_SingleTier_Keywords1"
+    } ]
+  },
+  "postDeployableOfferings" : [ ],
+  "resourceSpecSummaries" : [ {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecSummaryView",
+    "cpu" : 1,
+    "guid" : "c1c4c6e5-9df0-4b95-ad0f-941ead2e4fd0",
+    "memory" : 1,
+    "name" : "EC2_Auto_RS",
+    "operatingSystem" : "ami-b9fc82b8",
+    "serverCount" : 1,
+    "totalDiskSize" : 0
+  } ],
+  "tagNames" : [ "Cloud Services", "Auto_EC2_SingleTier_Keywords1" ]
+}
