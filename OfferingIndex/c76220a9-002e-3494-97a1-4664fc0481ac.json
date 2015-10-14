@@ -34,7 +34,7 @@
       "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
       "installableResource" : {
         "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
-        "guid" : "1b20551a-cbe8-4425-bd69-56380557ef5b",
+        "guid" : "5f6d6f52-b245-42f0-bd21-efe658aad2b2",
         "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
         "manufacturer" : "vmware",
         "productCatalogId" : "PDC000000012427",
@@ -48,36 +48,36 @@
       "networkOptionChoicesObject" : [ ],
       "networksObject" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "3ce73dd5-7b9c-4cb4-a595-8e7b133e8c26",
+        "guid" : "7e3f0581-67eb-43a7-8472-cc70fd11526f",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 0,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "b825211e-8e9c-447c-8334-0bb8c677d9fc",
+          "guid" : "035ecc10-8416-42c6-bb2b-d5631d8e466f",
           "label" : "Management",
           "name" : "Management",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "1e1f9f5b-df4d-4b9d-9d4c-7c42c89d21d6",
+            "guid" : "5618ca60-dfe5-4521-b8a9-d4eefc870a78",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
         } ]
       }, {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "012a4855-9d5d-4170-bcb8-80021a59db36",
+        "guid" : "ab10628c-a573-43a7-a0a7-df583316c9c3",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 1,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "fe2ec77a-11e8-4a68-ae21-fe0fc097d208",
+          "guid" : "b9f671db-c2b8-43c0-885a-12251f9662cd",
           "label" : "Customer",
           "name" : "Customer",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "a6d8b934-0fb3-41c1-ae70-1240f27f9b36",
+            "guid" : "9f4c192b-4748-4484-bf01-9b1cbc24724f",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
@@ -89,7 +89,7 @@
       "softwareOptionsObject" : [ ],
       "softwares" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
-        "guid" : "ec45ee6e-9fd3-4c56-94e2-e187b6806f64",
+        "guid" : "18dbbae9-d335-4b36-8464-907cda235c67",
         "imageURL" : "/csm/images/Software/Windows%20OS",
         "name" : "Windows OS",
         "parametersObject" : [ ],
@@ -101,13 +101,13 @@
     "tags" : [ {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Cloud Services",
-      "guid" : "1669d457-a3c2-44cc-84d7-9a9b43948b0e",
+      "guid" : "25826396-00c1-4107-9c21-d2c61bc3257f",
       "label" : "Cloud Services",
       "name" : "Cloud Services"
     }, {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Automation_Windows_Keywords1",
-      "guid" : "972f9c05-6da2-4d5c-989a-8b210110cd40",
+      "guid" : "ad39dcee-0a6a-4045-a788-e881887b955c",
       "label" : "Automation_Windows_Keywords1",
       "name" : "Automation_Windows_Keywords1"
     } ]
