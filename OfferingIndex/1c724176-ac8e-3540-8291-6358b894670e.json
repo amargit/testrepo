@@ -1,0 +1,127 @@
+{
+  "cloudClass" : "com.bmc.cloud.model.beans.OfferingIndex",
+  "definitionIsOffline" : false,
+  "definitionReconId" : "REHAA5V0HC3F9ANVTHEYAI10XOBV7Y",
+  "definitionStartDate" : 1311570000000,
+  "description" : "Automation_Windows_per_Blueprint",
+  "guid" : "1c724176-ac8e-3540-8291-6358b894670e",
+  "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9ANVTGY7AIG14ABVG3",
+  "name" : "Automation_Windows_NoChange",
+  "offeringType" : "SERVICE",
+  "offeringView" : {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.OfferingView",
+    "blueprintGuid" : "9dbf5b6a-c6dd-4b7e-bb9e-e5e4a062b7bd",
+    "definitionId" : "OI-9a87cc70981f4f28ac0c046927b542e9",
+    "definitionIsOffline" : false,
+    "definitionReconId" : "REHAA5V0HC3F9ANVTHEYAI10XOBV7Y",
+    "definitionStartDate" : 1311570000000,
+    "description" : "Automation_Windows_per_Blueprint",
+    "externalID" : "SRHAA5V0HC3F9ANVTGY7AIG14ABVG3###AG001143D417CBv8qvRQ#GBbEQjRkJ",
+    "guid" : "OI-47bac752679e460689b1a7f434711229",
+    "imageURL" : "/csm/images/Offering/SRHAA5V0HC3F9ANVTGY7AIG14ABVG3",
+    "name" : "Automation_Windows_NoChange",
+    "offeringType" : "SERVICE",
+    "parametersObject" : [ ],
+    "postDeployableOfferingsObject" : [ ],
+    "reconciliationID" : "FCC9FBB9-CB3F-8D0A-AEF4-3E2977B8D0D9",
+    "serverGroupSpecObject" : [ {
+      "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
+      "additionalDisksObject" : [ ],
+      "cpu" : 2,
+      "cpuOptionChoicesObject" : [ ],
+      "diskOptionChoicesObject" : [ ],
+      "disks" : [ ],
+      "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
+      "installableResource" : {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
+        "guid" : "f1d84f46-7703-454f-841a-ef32c73a3ac5",
+        "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
+        "manufacturer" : "vmware",
+        "productCatalogId" : "PDC000000012427",
+        "productName" : "VMW-W2k8-64B-20GB"
+      },
+      "installableResourceOptionChoicesObject" : [ ],
+      "isVirtual" : true,
+      "memOptionChoicesObject" : [ ],
+      "memory" : 2048,
+      "name" : "Single Resource",
+      "networkOptionChoicesObject" : [ ],
+      "networksObject" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "3c31a84e-75e1-4b84-9dfe-1804c4509f7c",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 0,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "ffa0b660-47d3-4253-9507-d7aef1fdc76e",
+          "label" : "Management",
+          "name" : "Management",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "59893a7a-935f-44d2-a673-52292879bf4f",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      }, {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
+        "guid" : "a427d2c9-7314-43a5-9931-959bdc373bd2",
+        "isDynamic" : true,
+        "isPublic" : false,
+        "nicNumber" : 1,
+        "tags" : [ {
+          "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+          "guid" : "3470f9b4-84b0-4767-b6fd-9af2d6e78179",
+          "label" : "Customer",
+          "name" : "Customer",
+          "tagGroup" : {
+            "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
+            "guid" : "983522ca-ed08-4f1c-9fd5-ecdaa3f211f5",
+            "name" : "NetworkType",
+            "tagScope" : "User_Defined"
+          }
+        } ]
+      } ],
+      "numberOfInstanceOptionChoicesObject" : [ ],
+      "parametersObject" : [ ],
+      "serverCount" : 1,
+      "softwareOptionsObject" : [ ],
+      "softwares" : [ {
+        "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
+        "guid" : "d64b3ece-cfa5-4124-bba5-06743ab75dbb",
+        "imageURL" : "/csm/images/Software/Windows%20OS",
+        "name" : "Windows OS",
+        "parametersObject" : [ ],
+        "tags" : [ ]
+      } ],
+      "tags" : [ ]
+    } ],
+    "softwareContainerGroupSpecObject" : [ ],
+    "tags" : [ {
+      "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+      "description" : "DefinitionLabel:Cloud Services",
+      "guid" : "8e92fb53-480a-4dd8-b555-4485b06ce640",
+      "label" : "Cloud Services",
+      "name" : "Cloud Services"
+    }, {
+      "cloudClass" : "com.bmc.cloud.model.beans.Tag",
+      "description" : "DefinitionLabel:Automation_Windows_Keywords1",
+      "guid" : "57f59491-707f-42ef-8aee-94830bca5370",
+      "label" : "Automation_Windows_Keywords1",
+      "name" : "Automation_Windows_Keywords1"
+    } ]
+  },
+  "postDeployableOfferings" : [ ],
+  "resourceSpecSummaries" : [ {
+    "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecSummaryView",
+    "cpu" : 2,
+    "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
+    "memory" : 2,
+    "name" : "Single Resource",
+    "operatingSystem" : "VMW-W2k8-64B-20GB",
+    "serverCount" : 1,
+    "totalDiskSize" : 0
+  } ],
+  "tagNames" : [ "Cloud Services", "Automation_Windows_Keywords1" ]
+}
