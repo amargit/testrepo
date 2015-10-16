@@ -22,58 +22,7 @@
     "name" : "Automation_Windows_NoChange",
     "offeringType" : "SERVICE",
     "parametersObject" : [ ],
-    "postDeployableOfferingsObject" : [ {
-      "cloudClass" : "com.bmc.cloud.model.view.beans.PostDeployableOfferingView",
-      "cpuOptionChoicesObject" : [ ],
-      "customOptionCategoriesObject" : [ ],
-      "definitionId" : "OI-d4a6a3ebc11a4dc181e16a07ca26a4b7",
-      "description" : "8 GB MORE RAM",
-      "diskOptionChoicesObject" : [ ],
-      "externalID" : "SRHAA5V0HCOC5ANW1XEUEC28Y34DB3###AG001143D417CBgevCRQPZDhAQgJ8B",
-      "guid" : "OI-d4a6a3ebc11a4dc181e16a07ca26a4b7",
-      "memOptionChoicesObject" : [ {
-        "cloudClass" : "com.bmc.cloud.model.view.beans.OptionChoiceView",
-        "description" : "Eight GB",
-        "guid" : "OI-3209ae48ca824dc9acd7dd6cbf51268c",
-        "isPreselected" : false,
-        "name" : "8 GB",
-        "optionChoiceId" : "CE357F74-0757-359D-F48E-723FFD53C68E",
-        "optionId" : "OI-40e248407cf1475ba7bc102aa1280b73",
-        "priceObject" : [ {
-          "cloudClass" : "com.bmc.cloud.model.beans.Price",
-          "amount" : "13.99 USD",
-          "description" : "na",
-          "guid" : "OI-9287bd6affd84390bb0bade41e24615f",
-          "modifiedDate" : 1445026052000,
-          "name" : "8Mem",
-          "period" : "MNTH",
-          "reconciliationID" : "C12C68B4-719C-5F3C-DAC0-72408021187E",
-          "uom" : "INST"
-        } ],
-        "reconciliationID" : "CE357F74-0757-359D-F48E-723FFD53C68E",
-        "type" : "memory",
-        "uiOptionChoiceEffectsObject" : [ {
-          "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
-          "change" : "replace",
-          "guid" : "688bf1a1-ba10-4703-9099-ce374a66ccdf",
-          "memory" : 8192,
-          "uiOptionChoice" : "/OptionChoiceView/OI-3209ae48ca824dc9acd7dd6cbf51268c"
-        } ]
-      } ],
-      "name" : "Increase Memory",
-      "nicOptionChoicesObject" : [ ],
-      "numberOfInstanceOptionChoicesObject" : [ ],
-      "reconciliationID" : "REHAA5V0HCOC5ANW1XHEEC4JXE4DFW",
-      "resizeDiskOptionChoicesObject" : [ ],
-      "softwareOptionsObject" : [ ],
-      "tags" : [ {
-        "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-        "description" : "DefinitionLabel:Cloud Services",
-        "guid" : "0421489a-4739-439b-9216-4206ff113576",
-        "label" : "Cloud Services",
-        "name" : "Cloud Services"
-      } ]
-    } ],
+    "postDeployableOfferingsObject" : [ ],
     "reconciliationID" : "5CCB7A9E-AD36-6DE8-0298-38523A33DD81",
     "serverGroupSpecObject" : [ {
       "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecView",
@@ -85,7 +34,7 @@
       "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
       "installableResource" : {
         "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
-        "guid" : "92fa3c8e-ea59-4d05-8ebf-1b058cd10f74",
+        "guid" : "89c9b71a-935e-4528-ab1e-c13c06524ba0",
         "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
         "manufacturer" : "vmware",
         "productCatalogId" : "PDC000000012427",
@@ -99,36 +48,36 @@
       "networkOptionChoicesObject" : [ ],
       "networksObject" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "6034405b-9ebc-4c82-980c-0675a372b3f6",
+        "guid" : "4f0429a2-42dd-4783-8166-6fc3465bb2d9",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 0,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "56a4d186-22bc-458d-95c0-9d77ad677293",
+          "guid" : "9471c6e9-09d1-4e2c-9595-33f9423cd5e4",
           "label" : "Management",
           "name" : "Management",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "9eadb25e-89ef-4545-b613-991ea4039651",
+            "guid" : "d78251c9-fc0a-484c-a28d-a8a7902a5876",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
         } ]
       }, {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "3178cead-ba30-4b71-88b2-aa2e324c8165",
+        "guid" : "a6f6cece-4917-4576-be2f-ef43c8e8aaff",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 1,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "db70cef5-574f-4eba-ab1a-d0d9605e7337",
+          "guid" : "691970ee-891e-4070-a641-c9dd1a45026d",
           "label" : "Customer",
           "name" : "Customer",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "9d2da580-d7a3-4c37-a777-691a6b29f164",
+            "guid" : "d087a2b2-384e-433c-b92c-b0597ad0c8fa",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
@@ -140,7 +89,7 @@
       "softwareOptionsObject" : [ ],
       "softwares" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
-        "guid" : "ae8718ec-12a5-4225-a18c-0e21834f7132",
+        "guid" : "e212b97f-cba7-4b3e-810b-69331b2628ef",
         "imageURL" : "/csm/images/Software/Windows%20OS",
         "name" : "Windows OS",
         "parametersObject" : [ ],
@@ -152,24 +101,18 @@
     "tags" : [ {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Cloud Services",
-      "guid" : "f74dd882-4c30-4f91-b4e2-d87237e02668",
+      "guid" : "773a5b9f-145a-4b22-bf99-124012655b52",
       "label" : "Cloud Services",
       "name" : "Cloud Services"
     }, {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Automation_Windows_Keywords1",
-      "guid" : "45f8aabf-4b31-4736-83cf-20439097ad93",
+      "guid" : "6ec21cca-17a2-4e0b-935f-5df5a5e176a2",
       "label" : "Automation_Windows_Keywords1",
       "name" : "Automation_Windows_Keywords1"
     } ]
   },
-  "postDeployableOfferings" : [ {
-    "cloudClass" : "com.bmc.cloud.model.view.beans.PostDeployableOfferingSummaryView",
-    "description" : "8 GB MORE RAM",
-    "guid" : "OI-d4a6a3ebc11a4dc181e16a07ca26a4b7",
-    "name" : "Increase Memory",
-    "tagNames" : [ "Cloud Services" ]
-  } ],
+  "postDeployableOfferings" : [ ],
   "resourceSpecSummaries" : [ {
     "cloudClass" : "com.bmc.cloud.model.view.beans.ServerGroupSpecSummaryView",
     "cpu" : 2,
