@@ -54,7 +54,7 @@
           "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
           "change" : "replace",
           "cpuCount" : 3,
-          "guid" : "08557918-61d4-4482-a672-029dd6d12926",
+          "guid" : "f309385e-d378-4a1b-bb88-8522de3ede27",
           "name" : "SG",
           "uiOptionChoice" : "/OptionChoiceView/OI-8ae305729fc44af2986868cb319090f4"
         } ]
@@ -72,7 +72,7 @@
           "cloudClass" : "com.bmc.cloud.model.view.beans.CPUOptionChoiceEffectView",
           "change" : "replace",
           "cpuCount" : 4,
-          "guid" : "11acbaf3-e76a-4e33-bba3-c75966b03fcb",
+          "guid" : "9bd9c9fe-da76-4f55-954a-b99022b272c6",
           "name" : "SG",
           "uiOptionChoice" : "/OptionChoiceView/OI-ab3bb3faccff492ab05cbfa53062765b"
         } ]
@@ -82,7 +82,7 @@
       "guid" : "d9ad04bd-d4aa-4b61-80e1-433f4fa989bf",
       "installableResource" : {
         "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
-        "guid" : "7c62fa3f-6c4f-44ec-9ca5-78e3ef669186",
+        "guid" : "63fb707c-a29d-4d6f-9022-2b39ba0b2c03",
         "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-40GB",
         "manufacturer" : "vmware",
         "productCatalogId" : "PDC000000012527",
@@ -96,36 +96,36 @@
       "networkOptionChoicesObject" : [ ],
       "networksObject" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "2a900e6c-1945-462c-98a3-c866e3ea27ed",
+        "guid" : "ad995304-11d9-4a3f-a45a-47003bd84357",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 0,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "7bb2d64b-449b-4714-b814-19cc4249f02a",
+          "guid" : "6706983a-01ba-40bd-ba0d-b8a5fd9d9d22",
           "label" : "Management",
           "name" : "Management",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "19052f8b-79fa-4b38-aa93-5e9cc0035d59",
+            "guid" : "7d503fe7-ec5a-4de3-8693-388fd1475486",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
         } ]
       }, {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "01c84551-2f7e-4004-ae91-ad274e18ed85",
+        "guid" : "a1d1d711-b5f4-4c36-b6ce-97bc3130f2db",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 1,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "6aa69872-8c67-4340-bd74-4a19150bb4a8",
+          "guid" : "3046997e-1e65-4857-8e00-345ded323e46",
           "label" : "Customer",
           "name" : "Customer",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "5ebcda64-fc01-4cd4-807b-afdf3f0c8cc3",
+            "guid" : "9a3ac381-e079-4e12-9523-b66b7b140728",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
@@ -137,7 +137,7 @@
       "softwareOptionsObject" : [ ],
       "softwares" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
-        "guid" : "c846e07e-f2d9-431d-9fa9-3bbf73da2504",
+        "guid" : "a75986bb-2fe2-4285-b7f3-2f27ae82749d",
         "imageURL" : "/csm/images/Software/Apache",
         "name" : "Apache",
         "parametersObject" : [ ],
@@ -149,7 +149,7 @@
     "tags" : [ {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Cloud Services",
-      "guid" : "ef8f0ffb-0307-4410-853b-2b4c72b393ed",
+      "guid" : "cb97c770-6cce-4f62-afa8-f2aa3fc93542",
       "label" : "Cloud Services",
       "name" : "Cloud Services"
     } ]
