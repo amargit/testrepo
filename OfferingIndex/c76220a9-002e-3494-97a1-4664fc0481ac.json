@@ -34,7 +34,7 @@
       "guid" : "ce8ba073-d068-45c6-8e2e-618d1d7027af",
       "installableResource" : {
         "cloudClass" : "com.bmc.cloud.model.view.beans.InstallableResourceView",
-        "guid" : "e1f0ed9b-5fa2-46c7-abba-6ae08188d03f",
+        "guid" : "92a76155-5b22-48b6-9676-3bd6bc961924",
         "imageURL" : "/csm/images/OperatingSystem/VMW-W2k8-64B-20GB",
         "manufacturer" : "vmware",
         "productCatalogId" : "PDC000000012427",
@@ -52,10 +52,10 @@
         "optionId" : "OI-40e248407cf1475ba7bc102aa1280b73",
         "priceObject" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Price",
-          "amount" : "15.99 USD",
+          "amount" : "25.99 USD",
           "description" : "na",
           "guid" : "OI-9287bd6affd84390bb0bade41e24615f",
-          "modifiedDate" : 1445544634000,
+          "modifiedDate" : 1445549169000,
           "name" : "8Mem",
           "period" : "MNTH",
           "reconciliationID" : "C12C68B4-719C-5F3C-DAC0-72408021187E",
@@ -66,7 +66,7 @@
         "uiOptionChoiceEffectsObject" : [ {
           "cloudClass" : "com.bmc.cloud.model.view.beans.MemoryOptionChoiceEffectView",
           "change" : "replace",
-          "guid" : "33c1a543-cb89-4a38-95a3-9905f0368890",
+          "guid" : "1dd63cfc-0e02-41ce-94a6-8090a014c552",
           "memory" : 8192,
           "name" : "Single Resource",
           "uiOptionChoice" : "/OptionChoiceView/OI-3209ae48ca824dc9acd7dd6cbf51268c"
@@ -77,36 +77,36 @@
       "networkOptionChoicesObject" : [ ],
       "networksObject" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "06c82d9c-7bce-43cb-9291-e54b1c32535b",
+        "guid" : "45b0d8c6-de63-476e-8e8b-24a8104bfeb7",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 0,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "903866d2-1c17-4fa8-ac54-f7fbd04be799",
+          "guid" : "b57268c0-764b-4319-96a1-f3cc87c3a008",
           "label" : "Management",
           "name" : "Management",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "11624031-c6d8-4029-9108-2cf792ee6db9",
+            "guid" : "5cd5ce69-9b5c-45ba-9f04-9bac9de239fa",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
         } ]
       }, {
         "cloudClass" : "com.bmc.cloud.model.view.beans.NetworkInterfaceView",
-        "guid" : "b7989aed-146e-4b48-a7e2-a04dfbc2cdbb",
+        "guid" : "5e124ef9-4225-49d3-92c2-6fdcf40c1529",
         "isDynamic" : true,
         "isPublic" : false,
         "nicNumber" : 1,
         "tags" : [ {
           "cloudClass" : "com.bmc.cloud.model.beans.Tag",
-          "guid" : "74efba6e-6a19-4274-8bfe-d14f7956db60",
+          "guid" : "320d7c2d-10d2-49b9-9723-b23b41565fe7",
           "label" : "Customer",
           "name" : "Customer",
           "tagGroup" : {
             "cloudClass" : "com.bmc.cloud.model.beans.TagGroup",
-            "guid" : "0b667247-1fdc-4107-8cd5-a987bad0d9b7",
+            "guid" : "fa7696c3-4bce-4192-8fd4-3a89a7a17752",
             "name" : "NetworkType",
             "tagScope" : "User_Defined"
           }
@@ -118,7 +118,7 @@
       "softwareOptionsObject" : [ ],
       "softwares" : [ {
         "cloudClass" : "com.bmc.cloud.model.view.beans.SoftwareView",
-        "guid" : "a92edb5c-5258-47db-b4ec-4e1fa7bfa3a7",
+        "guid" : "4d7c50fd-f301-42bd-abd0-f8a151e94cf8",
         "imageURL" : "/csm/images/Software/Windows%20OS",
         "name" : "Windows OS",
         "parametersObject" : [ ],
@@ -130,13 +130,13 @@
     "tags" : [ {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Cloud Services",
-      "guid" : "2fb331ff-df2c-4cdc-8bc9-e71649d964ff",
+      "guid" : "3fd31bdb-59f2-455d-93cc-6cac940353f1",
       "label" : "Cloud Services",
       "name" : "Cloud Services"
     }, {
       "cloudClass" : "com.bmc.cloud.model.beans.Tag",
       "description" : "DefinitionLabel:Automation_Windows_Keywords1",
-      "guid" : "e87f9a60-407d-4ea2-a25d-29ffaadae333",
+      "guid" : "fec175f0-0378-4d4f-9ab5-975b64a4e852",
       "label" : "Automation_Windows_Keywords1",
       "name" : "Automation_Windows_Keywords1"
     } ]
